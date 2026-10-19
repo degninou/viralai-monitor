@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="refresh" content="600">
+<meta name="robots" content="noindex,nofollow">
+<title>ViralAI — run status</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><text y='13' font-size='13'>📊</text></svg>">
+<style>
+:root{--bg:#f6f7f9;--panel:#fff;--ink:#14181f;--muted:#5c6673;--line:#e3e7ec;
+--ok:#1a7f4b;--warn:#9a6700;--bad:#b42318;--accent:#2f5fd0;--bar:#dfe4ea;}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#0e1116;--panel:#161b22;
+--ink:#e6edf3;--muted:#9aa4b2;--line:#263040;--ok:#3fb950;--warn:#d29922;--bad:#f85149;
+--accent:#6ea8ff;--bar:#263040;}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 -apple-system,BlinkMacSystemFont,
+"Segoe UI",Roboto,Helvetica,Arial,sans-serif;-webkit-text-size-adjust:100%}
+.wrap{max-width:1040px;margin:0 auto;padding:24px 16px 56px}
+header{display:flex;flex-wrap:wrap;gap:12px;align-items:baseline;justify-content:space-between;
+margin-bottom:18px}
+h1{font-size:20px;margin:0;letter-spacing:-.01em}
+h2{font-size:14px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);
+margin:28px 0 10px}
+.sub{color:var(--muted);font-size:13px}
+.badge{display:inline-block;padding:3px 10px;border-radius:999px;font-size:12px;font-weight:600;
+border:1px solid transparent}
+.b-ok{background:color-mix(in srgb,var(--ok) 14%,transparent);color:var(--ok);
+border-color:color-mix(in srgb,var(--ok) 35%,transparent)}
+.b-run{background:color-mix(in srgb,var(--accent) 14%,transparent);color:var(--accent);
+border-color:color-mix(in srgb,var(--accent) 35%,transparent)}
+.b-warn{background:color-mix(in srgb,var(--warn) 16%,transparent);color:var(--warn);
+border-color:color-mix(in srgb,var(--warn) 35%,transparent)}
+.b-bad{background:color-mix(in srgb,var(--bad) 14%,transparent);color:var(--bad);
+border-color:color-mix(in srgb,var(--bad) 35%,transparent)}
+.grid{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(170px,1fr))}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+.card .k{font-size:12px;color:var(--muted);margin-bottom:4px}
+.card .v{font-size:20px;font-weight:600;letter-spacing:-.01em}
+.card .n{font-size:12px;color:var(--muted);margin-top:2px}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+table{width:100%;border-collapse:collapse;font-size:13px}
+th,td{text-align:left;padding:7px 8px;border-bottom:1px solid var(--line);white-space:nowrap}
+th{font-weight:600;color:var(--muted);font-size:12px}
+tbody tr:last-child td{border-bottom:none}
+.scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.prog{display:flex;align-items:center;gap:10px;margin:7px 0}
+.prog .lbl{flex:0 0 150px;font-size:13px;color:var(--muted)}
+.prog .track{flex:1;height:8px;background:var(--bar);border-radius:99px;overflow:hidden}
+.prog .fill{height:100%;background:var(--accent);border-radius:99px}
+.prog .val{flex:0 0 auto;font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums}
+pre{margin:0;font:12px/1.5 ui-monospace,SFMono-Regular,Menlo,monospace;white-space:pre-wrap;
+word-break:break-word;color:var(--muted)}
+.ev{display:flex;gap:10px;padding:6px 0;border-bottom:1px solid var(--line);font-size:13px}
+.ev:last-child{border-bottom:none}
+.ev .t{flex:0 0 120px;color:var(--muted);font-size:12px}
+.ev.error .m{color:var(--bad)} .ev.warn .m{color:var(--warn)} .ev.ok .m{color:var(--ok)}
+footer{margin-top:32px;color:var(--muted);font-size:12px}
+a{color:var(--accent)}
+@media (max-width:560px){.prog .lbl{flex-basis:104px;font-size:12px}
+h1{font-size:18px}.card .v{font-size:18px}}
+</style></head><body><div class="wrap">
+<p class="sub" style="margin:0 0 10px"><a href="index.html">&larr; all runs</a></p>
+<header><div><h1>ViralAI — run status — viralai-study-1410</h1>
+<p class="sub">— · /scratch/degninou/viralai-study-1410</p></div>
+<div style="text-align:right"><span class="badge b-warn">UNKNOWN</span>
+<p class="sub" style="margin:6px 0 0">Updated Mon 19 Oct 16:15 (13:15 UTC)</p></div></header>
+
+<div class="grid"><div class="card"><div class="k">Job</div><div class="v">—</div></div><div class="card"><div class="k">Node</div><div class="v">—</div><div class="n">? cores, ? GB</div></div><div class="card"><div class="k">Elapsed</div><div class="v">—</div></div><div class="card"><div class="k">Workers</div><div class="v">—</div><div class="n">loky processes</div></div><div class="card"><div class="k">Memory</div><div class="v">—</div><div class="n">peak None GB, OOM None</div></div><div class="card"><div class="k">Attempt</div><div class="v">—</div><div class="n">pipeline launches</div></div></div>
+
+<h2>Progress</h2><div class="panel"><div class="prog"><div class="lbl">Training runs</div><div class="track"><div class="fill" style="width:0%"></div></div><div class="val">0/?</div></div><div class="prog"><div class="lbl">Outer folds</div><div class="track"><div class="fill" style="width:0%"></div></div><div class="val">0/?</div></div><div class="prog"><div class="lbl">Gates sealed</div><div class="track"><div class="fill" style="width:0%"></div></div><div class="val">0/?</div></div><div class="prog"><div class="lbl">Sensitivity</div><div class="track"><div class="fill" style="width:0%"></div></div><div class="val">0/?</div></div><p class="sub">Report pending · deposit pending</p></div>
+
+<h2>Memory</h2><div class="panel"><pre>No memory samples yet.</pre></div>
+
+<h2>Models</h2><div class="panel"><pre>No model has been frozen yet.</pre></div>
+
+<h2>Evaluability gates</h2><div class="panel"><pre>No gate sealed yet — gates are sealed after development, before any external metric.</pre></div>
+
+
+
+<h2>Stage timings</h2><div class="panel"><pre>No stage timings recorded yet.</pre></div>
+
+<h2>Events</h2><div class="panel"><pre>Nothing unusual logged.</pre></div>
+
+<h2>Past runs</h2><div class="panel"><pre>No earlier runs found.</pre></div>
+
+<h2>Log tail</h2><div class="panel scroll"><pre>No log yet.</pre></div>
+
+<footer>Page regenerates on the login node and is pushed to GitHub Pages; it reloads itself
+every 10 minutes. Machine-readable copy:
+<a href="status-1410.json">status-1410.json</a>.
+<a href="index.html">All runs</a>. No patient-level data is published here.</footer>
+</div></body></html>
