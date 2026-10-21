@@ -1,27 +1,27 @@
 {
-  "generated_utc": "2026-10-21T05:50:01+00:00",
+  "generated_utc": "2026-10-21T06:00:06+00:00",
   "study_dir": "/scratch/degninou/viralai-study-1710",
   "job": {
-    "id": null,
-    "state": "UNKNOWN",
-    "node": null,
-    "elapsed": "",
-    "left": "",
-    "reason": "",
-    "source": "log",
-    "restart": null,
-    "profile": null,
-    "cpus": null,
-    "workers": null,
+    "id": "20981617",
+    "state": "RUNNING",
+    "node": "n278",
+    "elapsed": "1:39",
+    "left": "3-23:58:21",
+    "reason": "n278",
+    "source": "squeue",
+    "restart": 0,
+    "profile": "full",
+    "cpus": 32,
+    "workers": 28,
     "attempt": null,
     "max_attempts": null,
     "pipeline_notebook": null,
     "upstream": [],
-    "started": null,
-    "last_log_at": null,
+    "started": "2026-10-21T04:58:28+00:00",
+    "last_log_at": "2026-10-21T04:58:28+00:00",
     "outcome": null,
     "projection": null,
-    "log_file": null
+    "log_file": "slurm-viralai-full-run-20981617.out"
   },
   "memory": {
     "series": [],
@@ -29,7 +29,7 @@
     "peak_gb": null,
     "oom_events": null,
     "procs": null,
-    "limit_gb": null
+    "limit_gb": 90.0
   },
   "pipeline": {
     "run_id": null,
@@ -47,8 +47,28 @@
     "compute": null
   },
   "events": [],
-  "log_tail": [],
-  "history": [],
+  "log_tail": [
+    "[2026-10-21 07:58:28] ==================================================================",
+    "[2026-10-21 07:58:28] job 20981617 (viralai-full-run) restart #0 on n278",
+    "[2026-10-21 07:58:28] cpus=32 mem_per_node=92160MB profile=full",
+    "[2026-10-21 07:58:28] ==================================================================",
+    "[2026-10-21 07:58:28] python: /scratch/degninou/viralai-study-1710/envs/viralai/bin/python 3.11.3",
+    "[2026-10-21 07:58:28] worker pool: VIRALAI_N_JOBS=28 (cpus=32, mem=90G)",
+    "[2026-10-21 07:58:28] pre-flight: packages"
+  ],
+  "history": [
+    {
+      "job_id": "20981617",
+      "current": true,
+      "node": "n278",
+      "profile": "full",
+      "started": "2026-10-21T04:58:28+00:00",
+      "last_seen": "2026-10-21T04:58:28+00:00",
+      "outcome": null,
+      "state": "RUNNING",
+      "attempt": null
+    }
+  ],
   "label": "1710",
   "title": "viralai-study-1710"
 }
