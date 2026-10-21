@@ -1,8 +1,8 @@
 {
-  "generated_utc": "2026-10-21T06:00:06+00:00",
+  "generated_utc": "2026-10-21T06:10:01+00:00",
   "studies": [
     {
-      "generated_utc": "2026-10-21T06:00:06+00:00",
+      "generated_utc": "2026-10-21T06:10:01+00:00",
       "study_dir": "/scratch/degninou/viralai-study-1410",
       "job": {
         "id": "20980075",
@@ -78,52 +78,202 @@
       "title": "viralai-study-1410"
     },
     {
-      "generated_utc": "2026-10-21T06:00:06+00:00",
+      "generated_utc": "2026-10-21T06:10:01+00:00",
       "study_dir": "/scratch/degninou/viralai-study-1710",
       "job": {
         "id": "20981617",
         "state": "RUNNING",
         "node": "n278",
-        "elapsed": "1:39",
-        "left": "3-23:58:21",
+        "elapsed": "11:34",
+        "left": "3-23:48:26",
         "reason": "n278",
         "source": "squeue",
         "restart": 0,
         "profile": "full",
         "cpus": 32,
         "workers": 28,
-        "attempt": null,
-        "max_attempts": null,
-        "pipeline_notebook": null,
-        "upstream": [],
+        "attempt": 1,
+        "max_attempts": 3,
+        "pipeline_notebook": "viralai_pipeline_implementation_17102026-NB-LR.ipynb",
+        "upstream": [
+          "viralai_data_cleaning_17102026.ipynb",
+          "viralai_sample_size_calculation_17102026.ipynb"
+        ],
         "started": "2026-10-21T04:58:28+00:00",
-        "last_log_at": "2026-10-21T04:58:28+00:00",
+        "last_log_at": "2026-10-21T05:02:57+00:00",
         "outcome": null,
         "projection": null,
         "log_file": "slurm-viralai-full-run-20981617.out"
       },
       "memory": {
-        "series": [],
-        "current_gb": null,
-        "peak_gb": null,
-        "oom_events": null,
-        "procs": null,
+        "series": [
+          {
+            "t": "2026-10-21T05:00:28+00:00",
+            "mem": 0.4,
+            "peak": 1.1,
+            "oom": "0",
+            "procs": 8
+          },
+          {
+            "t": "2026-10-21T05:01:28+00:00",
+            "mem": 2.1,
+            "peak": 3.3,
+            "oom": "0",
+            "procs": 9
+          },
+          {
+            "t": "2026-10-21T05:02:28+00:00",
+            "mem": 0.7,
+            "peak": 3.3,
+            "oom": "0",
+            "procs": 9
+          },
+          {
+            "t": "2026-10-21T05:03:28+00:00",
+            "mem": 0.9,
+            "peak": 3.3,
+            "oom": "0",
+            "procs": 9
+          },
+          {
+            "t": "2026-10-21T05:04:28+00:00",
+            "mem": 4.4,
+            "peak": 4.5,
+            "oom": "0",
+            "procs": 39
+          },
+          {
+            "t": "2026-10-21T05:05:28+00:00",
+            "mem": 4.4,
+            "peak": 4.5,
+            "oom": "0",
+            "procs": 39
+          },
+          {
+            "t": "2026-10-21T05:06:28+00:00",
+            "mem": 4.4,
+            "peak": 4.5,
+            "oom": "0",
+            "procs": 39
+          },
+          {
+            "t": "2026-10-21T05:07:28+00:00",
+            "mem": 4.4,
+            "peak": 4.5,
+            "oom": "0",
+            "procs": 39
+          },
+          {
+            "t": "2026-10-21T05:08:28+00:00",
+            "mem": 4.4,
+            "peak": 4.5,
+            "oom": "0",
+            "procs": 39
+          },
+          {
+            "t": "2026-10-21T05:09:28+00:00",
+            "mem": 4.4,
+            "peak": 4.5,
+            "oom": "0",
+            "procs": 39
+          }
+        ],
+        "current_gb": 4.4,
+        "peak_gb": 4.5,
+        "oom_events": "0",
+        "procs": 39,
         "limit_gb": 90.0
       },
       "pipeline": {
-        "run_id": null,
+        "run_id": "20261021T080313-f37c2a",
         "status": null,
-        "profile": null,
-        "started_utc": null,
+        "profile": "full",
+        "started_utc": "2026-10-21T06:03:13+00:00",
         "models": [],
-        "stages": [],
+        "stages": [
+          {
+            "stage": "nested_cv",
+            "label": "Nested cross-validation",
+            "n": 1,
+            "seconds": 128.166,
+            "last": "2026-10-21T06:05:41+00:00"
+          },
+          {
+            "stage": "tune_outer_fold",
+            "label": "Outer folds",
+            "n": 40,
+            "seconds": 50.95900000000002,
+            "last": "2026-10-21T06:09:37+00:00"
+          },
+          {
+            "stage": "eda",
+            "label": "Exploratory analysis",
+            "n": 1,
+            "seconds": 4.107,
+            "last": "2026-10-21T06:03:24+00:00"
+          },
+          {
+            "stage": "estimate_compute",
+            "label": "Compute projection",
+            "n": 1,
+            "seconds": 1.317,
+            "last": "2026-10-21T06:03:33+00:00"
+          },
+          {
+            "stage": "import",
+            "label": "Import and contract checks",
+            "n": 1,
+            "seconds": 0.091,
+            "last": "2026-10-21T06:03:20+00:00"
+          }
+        ],
         "gates": [],
         "tags": [],
         "acceptance": [],
-        "progress": {},
-        "cohort": {},
+        "progress": {
+          "folds_done": 40,
+          "folds_total": 140,
+          "training_runs_done": 0,
+          "training_runs_total": 7,
+          "gates_sealed": 0,
+          "gates_total": 17,
+          "sensitivity_done": 0,
+          "sensitivity_total": 6,
+          "report_written": false,
+          "deposit_written": false
+        },
+        "cohort": {
+          "outer_folds": 10,
+          "inner_folds": 10,
+          "bootstrap": 2000,
+          "models": [
+            "LR",
+            "NB"
+          ],
+          "P": 21,
+          "n": 13878,
+          "sensitivity": [
+            "S1_no_smotenc",
+            "S2_cd4_bmi",
+            "S3_alt_outcomes",
+            "S4_robust_scaling",
+            "S5_exclude_2025",
+            "S6_widths_delta"
+          ]
+        },
         "sensitivity": [],
-        "compute": null
+        "compute": {
+          "profile": "full",
+          "probe_training_run": "DEV-POST",
+          "probe_rows": 7993,
+          "fold_preparation_seconds": 0.8,
+          "fold_preparations": 3885,
+          "sensitivity_refits": 4,
+          "parallel_workers": 28,
+          "cpu_hours_total": 2.8,
+          "wall_clock_hours_estimate": 1.0,
+          "wall_clock_hours_unrounded": 0.9769734932710258
+        }
       },
       "events": [],
       "log_tail": [
@@ -133,7 +283,15 @@
         "[2026-10-21 07:58:28] ==================================================================",
         "[2026-10-21 07:58:28] python: /scratch/degninou/viralai-study-1710/envs/viralai/bin/python 3.11.3",
         "[2026-10-21 07:58:28] worker pool: VIRALAI_N_JOBS=28 (cpus=32, mem=90G)",
-        "[2026-10-21 07:58:28] pre-flight: packages"
+        "[2026-10-21 07:58:28] pre-flight: packages",
+        "  all packages import (tensorflow + torch in one process OK)",
+        "[2026-10-21 08:00:26] pre-flight: kernel 'viralai' bound to /scratch/degninou/viralai-study-1710/envs/viralai/bin/python",
+        "[2026-10-21 08:00:28] pipeline notebook: /scratch/degninou/viralai-study-1710/viralai_pipeline_implementation_17102026-NB-LR.ipynb",
+        "[2026-10-21 08:00:28] upstream: viralai_data_cleaning_17102026.ipynb",
+        "[2026-10-21 08:01:59] upstream: viralai_sample_size_calculation_17102026.ipynb",
+        "[2026-10-21 08:02:57] pre-flight: all pipeline inputs present",
+        "[2026-10-21 08:02:57] pipeline attempt 1/3: VIRALAI_N_JOBS=28 -> /scratch/degninou/viralai-study-1710/job_runs/20981617/executed_pipeline_r0_a1.ipynb",
+        "[2026-10-21 08:02:57] memory before: mem=0.4G peak=3.3G oom_events=0"
       ],
       "history": [
         {
@@ -142,10 +300,10 @@
           "node": "n278",
           "profile": "full",
           "started": "2026-10-21T04:58:28+00:00",
-          "last_seen": "2026-10-21T04:58:28+00:00",
+          "last_seen": "2026-10-21T05:02:57+00:00",
           "outcome": null,
           "state": "RUNNING",
-          "attempt": null
+          "attempt": 1
         }
       ],
       "label": "1710",
