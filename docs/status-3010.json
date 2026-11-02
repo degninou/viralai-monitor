@@ -1,12 +1,12 @@
 {
-  "generated_utc": "2026-11-02T19:10:01+00:00",
+  "generated_utc": "2026-11-02T19:20:03+00:00",
   "study_dir": "/scratch/degninou/viralai-study-3010",
   "job": {
     "id": "21092877",
     "state": "RUNNING",
     "node": "n258",
-    "elapsed": "25:27",
-    "left": "3-23:34:33",
+    "elapsed": "35:29",
+    "left": "3-23:24:31",
     "reason": "n258",
     "start": "2026-11-02T19:44:34",
     "source": "squeue",
@@ -196,12 +196,82 @@
         "peak": 27.1,
         "oom": "0",
         "procs": 39
+      },
+      {
+        "t": "2026-11-02T17:10:36+00:00",
+        "mem": 27.4,
+        "peak": 27.4,
+        "oom": "0",
+        "procs": 39
+      },
+      {
+        "t": "2026-11-02T17:11:36+00:00",
+        "mem": 25.7,
+        "peak": 28.5,
+        "oom": "0",
+        "procs": 39
+      },
+      {
+        "t": "2026-11-02T17:12:36+00:00",
+        "mem": 27.2,
+        "peak": 28.5,
+        "oom": "0",
+        "procs": 39
+      },
+      {
+        "t": "2026-11-02T17:13:36+00:00",
+        "mem": 27.1,
+        "peak": 28.5,
+        "oom": "0",
+        "procs": 39
+      },
+      {
+        "t": "2026-11-02T17:14:36+00:00",
+        "mem": 27.3,
+        "peak": 28.5,
+        "oom": "0",
+        "procs": 39
+      },
+      {
+        "t": "2026-11-02T17:15:36+00:00",
+        "mem": 26.4,
+        "peak": 28.5,
+        "oom": "0",
+        "procs": 39
+      },
+      {
+        "t": "2026-11-02T17:16:36+00:00",
+        "mem": 26.6,
+        "peak": 28.5,
+        "oom": "0",
+        "procs": 39
+      },
+      {
+        "t": "2026-11-02T17:17:36+00:00",
+        "mem": 26.4,
+        "peak": 28.5,
+        "oom": "0",
+        "procs": 39
+      },
+      {
+        "t": "2026-11-02T17:18:36+00:00",
+        "mem": 25.8,
+        "peak": 28.5,
+        "oom": "0",
+        "procs": 39
+      },
+      {
+        "t": "2026-11-02T17:19:36+00:00",
+        "mem": 23.8,
+        "peak": 28.5,
+        "oom": "0",
+        "procs": 38
       }
     ],
-    "current_gb": 27.1,
-    "peak_gb": 27.1,
+    "current_gb": 23.8,
+    "peak_gb": 28.5,
     "oom_events": "0",
-    "procs": 39,
+    "procs": 38,
     "limit_gb": 90.0
   },
   "pipeline": {
@@ -211,6 +281,13 @@
     "started_utc": "2026-11-02T18:49:42+00:00",
     "models": [],
     "stages": [
+      {
+        "stage": "tune_outer_fold",
+        "label": "Outer folds",
+        "n": 9,
+        "seconds": 1049.013,
+        "last": "2026-11-02T19:10:20+00:00"
+      },
       {
         "stage": "estimate_compute",
         "label": "Compute projection",
@@ -237,7 +314,7 @@
     "tags": [],
     "acceptance": [],
     "progress": {
-      "folds_done": 0,
+      "folds_done": 9,
       "folds_total": 630,
       "training_runs_done": 0,
       "training_runs_total": 7,
