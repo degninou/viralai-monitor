@@ -1,39 +1,64 @@
 {
-  "generated_utc": "2026-11-04T14:00:07+00:00",
+  "generated_utc": "2026-11-04T14:10:02+00:00",
   "studies": [
     {
-      "generated_utc": "2026-11-04T14:00:07+00:00",
+      "generated_utc": "2026-11-04T14:10:02+00:00",
       "study_dir": "/scratch/degninou/viralai-study-3010",
       "job": {
         "id": "21125557",
-        "state": "PENDING",
-        "node": null,
-        "elapsed": "0:00",
-        "left": "4-00:00:00",
-        "reason": "(Nodes required for job are DOWN, DRAINED or reserved for jobs in higher priority partitions)",
-        "start": "2026-11-05T08:25:00",
+        "state": "RUNNING",
+        "node": "n269",
+        "elapsed": "2:52",
+        "left": "3-23:57:08",
+        "reason": "n269",
+        "start": "2026-11-04T15:07:09",
         "source": "squeue",
-        "restart": null,
-        "profile": null,
-        "cpus": null,
-        "workers": null,
+        "restart": 0,
+        "profile": "full",
+        "cpus": 32,
+        "workers": 28,
         "attempt": null,
         "max_attempts": null,
-        "pipeline_notebook": null,
-        "upstream": [],
-        "started": null,
-        "last_log_at": null,
+        "pipeline_notebook": "viralai_pipeline_implementation_30102026.ipynb",
+        "upstream": [
+          "viralai_data_cleaning_30102026.ipynb",
+          "viralai_sample_size_calculation_30102026.ipynb"
+        ],
+        "started": "2026-11-04T12:07:12+00:00",
+        "last_log_at": "2026-11-04T12:09:27+00:00",
         "outcome": null,
         "projection": null,
-        "log_file": null
+        "log_file": "slurm-viralai-full-run-21125557.out"
       },
       "memory": {
-        "series": [],
-        "current_gb": null,
-        "peak_gb": null,
-        "oom_events": null,
-        "procs": null,
-        "limit_gb": null
+        "series": [
+          {
+            "t": "2026-11-04T12:07:55+00:00",
+            "mem": 0.0,
+            "peak": 0.7,
+            "oom": "0",
+            "procs": 8
+          },
+          {
+            "t": "2026-11-04T12:08:55+00:00",
+            "mem": 1.8,
+            "peak": 2.2,
+            "oom": "0",
+            "procs": 9
+          },
+          {
+            "t": "2026-11-04T12:09:55+00:00",
+            "mem": 0.3,
+            "peak": 2.2,
+            "oom": "0",
+            "procs": 9
+          }
+        ],
+        "current_gb": 0.3,
+        "peak_gb": 2.2,
+        "oom_events": "0",
+        "procs": 9,
+        "limit_gb": 90.0
       },
       "pipeline": {
         "run_id": "20261102T194942-042453",
@@ -127,8 +152,32 @@
         }
       },
       "events": [],
-      "log_tail": [],
+      "log_tail": [
+        "[2026-11-04 15:07:12] ==================================================================",
+        "[2026-11-04 15:07:12] job 21125557 (viralai-full-run) restart #0 on n269",
+        "[2026-11-04 15:07:12] cpus=32 mem_per_node=92160MB profile=full",
+        "[2026-11-04 15:07:12] ==================================================================",
+        "[2026-11-04 15:07:12] python: /scratch/degninou/viralai-study-3010/envs/viralai/bin/python 3.11.3",
+        "[2026-11-04 15:07:12] worker pool: VIRALAI_N_JOBS=28 (cpus=32, mem=90G)",
+        "[2026-11-04 15:07:12] pre-flight: packages",
+        "  all packages import (tensorflow + torch in one process OK)",
+        "[2026-11-04 15:07:54] pre-flight: kernel 'viralai' bound to /scratch/degninou/viralai-study-3010/envs/viralai/bin/python",
+        "[2026-11-04 15:07:55] pipeline notebook: /scratch/degninou/viralai-study-3010/viralai_pipeline_implementation_30102026.ipynb",
+        "[2026-11-04 15:07:55] upstream: viralai_data_cleaning_30102026.ipynb",
+        "[2026-11-04 15:09:27] upstream: viralai_sample_size_calculation_30102026.ipynb"
+      ],
       "history": [
+        {
+          "job_id": "21125557",
+          "current": true,
+          "node": "n269",
+          "profile": "full",
+          "started": "2026-11-04T12:07:12+00:00",
+          "last_seen": "2026-11-04T12:09:27+00:00",
+          "outcome": null,
+          "state": "RUNNING",
+          "attempt": null
+        },
         {
           "job_id": "21092877",
           "current": false,
@@ -156,7 +205,7 @@
       "title": "viralai-study-3010"
     },
     {
-      "generated_utc": "2026-11-04T14:00:06+00:00",
+      "generated_utc": "2026-11-04T14:10:01+00:00",
       "study_dir": "/scratch/degninou/viralai-study-2710",
       "job": {
         "id": "21045118",
