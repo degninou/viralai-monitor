@@ -1,15 +1,15 @@
 {
-  "generated_utc": "2026-11-04T16:50:02+00:00",
+  "generated_utc": "2026-11-04T17:00:06+00:00",
   "studies": [
     {
-      "generated_utc": "2026-11-04T16:50:02+00:00",
+      "generated_utc": "2026-11-04T17:00:06+00:00",
       "study_dir": "/scratch/degninou/viralai-study-3010",
       "job": {
         "id": "21125557",
         "state": "RUNNING",
         "node": "n269",
-        "elapsed": "2:42:53",
-        "left": "3-21:17:07",
+        "elapsed": "2:52:57",
+        "left": "3-21:07:03",
         "reason": "n269",
         "start": "2026-11-04T15:07:09",
         "source": "squeue",
@@ -1165,12 +1165,89 @@
             "peak": 30.4,
             "oom": "0",
             "procs": 37
+          },
+          {
+            "t": "2026-11-04T14:50:02+00:00",
+            "mem": 24.0,
+            "peak": 30.4,
+            "oom": "0",
+            "procs": 36
+          },
+          {
+            "t": "2026-11-04T14:51:02+00:00",
+            "mem": 25.5,
+            "peak": 30.4,
+            "oom": "0",
+            "procs": 39
+          },
+          {
+            "t": "2026-11-04T14:52:02+00:00",
+            "mem": 23.5,
+            "peak": 30.4,
+            "oom": "0",
+            "procs": 39
+          },
+          {
+            "t": "2026-11-04T14:53:02+00:00",
+            "mem": 25.6,
+            "peak": 30.4,
+            "oom": "0",
+            "procs": 39
+          },
+          {
+            "t": "2026-11-04T14:54:02+00:00",
+            "mem": 26.2,
+            "peak": 30.4,
+            "oom": "0",
+            "procs": 39
+          },
+          {
+            "t": "2026-11-04T14:55:03+00:00",
+            "mem": 26.4,
+            "peak": 30.4,
+            "oom": "0",
+            "procs": 39
+          },
+          {
+            "t": "2026-11-04T14:56:03+00:00",
+            "mem": 26.7,
+            "peak": 30.4,
+            "oom": "0",
+            "procs": 39
+          },
+          {
+            "t": "2026-11-04T14:57:03+00:00",
+            "mem": 27.1,
+            "peak": 30.4,
+            "oom": "0",
+            "procs": 39
+          },
+          {
+            "t": "2026-11-04T14:58:03+00:00",
+            "mem": 27.2,
+            "peak": 30.4,
+            "oom": "0",
+            "procs": 39
+          },
+          {
+            "t": "2026-11-04T14:59:03+00:00",
+            "mem": 26.3,
+            "peak": 30.4,
+            "oom": "0",
+            "procs": 38
+          },
+          {
+            "t": "2026-11-04T15:00:03+00:00",
+            "mem": 27.0,
+            "peak": 30.4,
+            "oom": "0",
+            "procs": 39
           }
         ],
-        "current_gb": 25.1,
+        "current_gb": 27.0,
         "peak_gb": 30.4,
         "oom_events": "0",
-        "procs": 37,
+        "procs": 39,
         "limit_gb": 90.0
       },
       "pipeline": {
@@ -1181,11 +1258,18 @@
         "models": [],
         "stages": [
           {
+            "stage": "nested_cv",
+            "label": "Nested cross-validation",
+            "n": 1,
+            "seconds": 9925.755,
+            "last": "2026-11-04T16:59:01+00:00"
+          },
+          {
             "stage": "tune_outer_fold",
             "label": "Outer folds",
-            "n": 72,
-            "seconds": 8658.785000000002,
-            "last": "2026-11-04T16:40:33+00:00"
+            "n": 85,
+            "seconds": 9765.630000000003,
+            "last": "2026-11-04T17:00:02+00:00"
           },
           {
             "stage": "estimate_compute",
@@ -1213,7 +1297,7 @@
         "tags": [],
         "acceptance": [],
         "progress": {
-          "folds_done": 72,
+          "folds_done": 85,
           "folds_total": 630,
           "training_runs_done": 0,
           "training_runs_total": 7,
@@ -1321,7 +1405,7 @@
       "title": "viralai-study-3010"
     },
     {
-      "generated_utc": "2026-11-04T16:50:02+00:00",
+      "generated_utc": "2026-11-04T17:00:06+00:00",
       "study_dir": "/scratch/degninou/viralai-study-2710",
       "job": {
         "id": "21045118",
