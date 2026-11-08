@@ -1,12 +1,12 @@
 {
-  "generated_utc": "2026-11-08T02:50:02+00:00",
+  "generated_utc": "2026-11-08T03:00:06+00:00",
   "study_dir": "/scratch/degninou/viralai-study-3010",
   "job": {
     "id": "21125557",
     "state": "RUNNING",
     "node": "n269",
-    "elapsed": "3-12:42:53",
-    "left": "11:17:07",
+    "elapsed": "3-12:52:57",
+    "left": "11:07:03",
     "reason": "n269",
     "start": "2026-11-04T15:07:09",
     "source": "squeue",
@@ -29,76 +29,6 @@
   },
   "memory": {
     "series": [
-      {
-        "t": "2026-11-07T12:50:02+00:00",
-        "mem": 29.4,
-        "peak": 31.8,
-        "oom": "0",
-        "procs": 39
-      },
-      {
-        "t": "2026-11-07T12:51:02+00:00",
-        "mem": 29.3,
-        "peak": 31.8,
-        "oom": "0",
-        "procs": 39
-      },
-      {
-        "t": "2026-11-07T12:52:02+00:00",
-        "mem": 28.6,
-        "peak": 31.8,
-        "oom": "0",
-        "procs": 39
-      },
-      {
-        "t": "2026-11-07T12:53:02+00:00",
-        "mem": 29.1,
-        "peak": 31.8,
-        "oom": "0",
-        "procs": 39
-      },
-      {
-        "t": "2026-11-07T12:54:02+00:00",
-        "mem": 29.0,
-        "peak": 31.8,
-        "oom": "0",
-        "procs": 39
-      },
-      {
-        "t": "2026-11-07T12:55:02+00:00",
-        "mem": 28.5,
-        "peak": 31.8,
-        "oom": "0",
-        "procs": 38
-      },
-      {
-        "t": "2026-11-07T12:56:02+00:00",
-        "mem": 29.6,
-        "peak": 31.8,
-        "oom": "0",
-        "procs": 39
-      },
-      {
-        "t": "2026-11-07T12:57:02+00:00",
-        "mem": 29.8,
-        "peak": 31.8,
-        "oom": "0",
-        "procs": 39
-      },
-      {
-        "t": "2026-11-07T12:58:02+00:00",
-        "mem": 29.7,
-        "peak": 31.8,
-        "oom": "0",
-        "procs": 39
-      },
-      {
-        "t": "2026-11-07T12:59:02+00:00",
-        "mem": 30.2,
-        "peak": 31.8,
-        "oom": "0",
-        "procs": 39
-      },
       {
         "t": "2026-11-07T13:00:02+00:00",
         "mem": 30.2,
@@ -5068,9 +4998,79 @@
         "peak": 32.8,
         "oom": "0",
         "procs": 11
+      },
+      {
+        "t": "2026-11-08T00:50:33+00:00",
+        "mem": 5.2,
+        "peak": 32.8,
+        "oom": "0",
+        "procs": 11
+      },
+      {
+        "t": "2026-11-08T00:51:33+00:00",
+        "mem": 5.2,
+        "peak": 32.8,
+        "oom": "0",
+        "procs": 11
+      },
+      {
+        "t": "2026-11-08T00:52:33+00:00",
+        "mem": 5.1,
+        "peak": 32.8,
+        "oom": "0",
+        "procs": 11
+      },
+      {
+        "t": "2026-11-08T00:53:33+00:00",
+        "mem": 5.2,
+        "peak": 32.8,
+        "oom": "0",
+        "procs": 11
+      },
+      {
+        "t": "2026-11-08T00:54:33+00:00",
+        "mem": 5.1,
+        "peak": 32.8,
+        "oom": "0",
+        "procs": 11
+      },
+      {
+        "t": "2026-11-08T00:55:33+00:00",
+        "mem": 5.2,
+        "peak": 32.8,
+        "oom": "0",
+        "procs": 11
+      },
+      {
+        "t": "2026-11-08T00:56:33+00:00",
+        "mem": 5.3,
+        "peak": 32.8,
+        "oom": "0",
+        "procs": 11
+      },
+      {
+        "t": "2026-11-08T00:57:33+00:00",
+        "mem": 5.3,
+        "peak": 32.8,
+        "oom": "0",
+        "procs": 11
+      },
+      {
+        "t": "2026-11-08T00:58:33+00:00",
+        "mem": 5.3,
+        "peak": 32.8,
+        "oom": "0",
+        "procs": 11
+      },
+      {
+        "t": "2026-11-08T00:59:33+00:00",
+        "mem": 5.4,
+        "peak": 32.8,
+        "oom": "0",
+        "procs": 11
       }
     ],
-    "current_gb": 5.2,
+    "current_gb": 5.4,
     "peak_gb": 32.8,
     "oom_events": "0",
     "procs": 11,
@@ -5603,6 +5603,13 @@
         "last": "2026-11-08T02:31:05+00:00"
       },
       {
+        "stage": "sensitivity_S1_no_smotenc",
+        "label": "sensitivity S1 no smotenc",
+        "n": 1,
+        "seconds": 139705.169,
+        "last": "2026-11-08T02:56:14+00:00"
+      },
+      {
         "stage": "nested_cv",
         "label": "Nested cross-validation",
         "n": 14,
@@ -5610,18 +5617,18 @@
         "last": "2026-11-08T00:02:35+00:00"
       },
       {
+        "stage": "external_evaluation",
+        "label": "External evaluation",
+        "n": 2,
+        "seconds": 1229.04,
+        "last": "2026-11-08T02:56:09+00:00"
+      },
+      {
         "stage": "fit_final",
         "label": "Final fits",
         "n": 126,
         "seconds": 955.3619999999999,
         "last": "2026-11-08T02:45:15+00:00"
-      },
-      {
-        "stage": "external_evaluation",
-        "label": "External evaluation",
-        "n": 1,
-        "seconds": 579.534,
-        "last": "2026-11-06T12:07:04+00:00"
       },
       {
         "stage": "estimate_compute",
@@ -5840,7 +5847,7 @@
       "training_runs_total": 7,
       "gates_sealed": 17,
       "gates_total": 17,
-      "sensitivity_done": 0,
+      "sensitivity_done": 1,
       "sensitivity_total": 6,
       "report_written": false,
       "deposit_written": false
@@ -5871,7 +5878,9 @@
         "S6_widths_delta"
       ]
     },
-    "sensitivity": [],
+    "sensitivity": [
+      "S1_no_smotenc"
+    ],
     "compute": {
       "profile": "full",
       "probe_training_run": "DEV-POST",
