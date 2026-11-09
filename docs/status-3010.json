@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-09T10:40:02+00:00",
+  "generated_utc": "2026-11-09T10:50:03+00:00",
   "study_dir": "/scratch/degninou/viralai-study-3010",
   "job": {
     "id": "21260075",
@@ -861,7 +861,7 @@
       "started": "2026-11-04T12:07:12+00:00",
       "last_seen": "2026-11-08T11:06:41+00:00",
       "outcome": null,
-      "state": "CANCELLED by 131240",
+      "state": "CANCELLED",
       "attempt": 1
     },
     {
