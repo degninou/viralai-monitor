@@ -1,8 +1,8 @@
 {
-  "generated_utc": "2026-11-10T17:00:06+00:00",
+  "generated_utc": "2026-11-10T17:10:02+00:00",
   "studies": [
     {
-      "generated_utc": "2026-11-10T17:00:06+00:00",
+      "generated_utc": "2026-11-10T17:10:02+00:00",
       "study_dir": "/scratch/degninou/viralai-study-3010",
       "job": {
         "id": "21291858",
@@ -11,7 +11,7 @@
         "elapsed": "0:00",
         "left": "4-00:00:00",
         "reason": "(Nodes required for job are DOWN, DRAINED or reserved for jobs in higher priority partitions)",
-        "start": "2026-11-11T14:26:00",
+        "start": "2026-11-11T15:23:00",
         "source": "squeue",
         "restart": null,
         "profile": null,
@@ -144,7 +144,7 @@
       "title": "viralai-study-3010"
     },
     {
-      "generated_utc": "2026-11-10T17:00:05+00:00",
+      "generated_utc": "2026-11-10T17:10:02+00:00",
       "study_dir": "/scratch/degninou/viralai-study-2710",
       "job": {
         "id": "21045118",
