@@ -1,71 +1,39 @@
 {
-  "generated_utc": "2026-11-10T16:30:06+00:00",
+  "generated_utc": "2026-11-10T16:40:03+00:00",
   "studies": [
     {
-      "generated_utc": "2026-11-10T16:30:06+00:00",
+      "generated_utc": "2026-11-10T16:40:03+00:00",
       "study_dir": "/scratch/degninou/viralai-study-3010",
       "job": {
-        "id": "21260075",
-        "state": "FAILED",
-        "node": "n243",
-        "elapsed": "00:05:17",
-        "left": "",
-        "reason": "exit 1:0",
+        "id": "21291858",
+        "state": "PENDING",
+        "node": null,
+        "elapsed": "0:00",
+        "left": "4-00:00:00",
+        "reason": "(Priority)",
         "start": "",
-        "source": "sacct",
-        "restart": 1,
-        "profile": "full",
-        "cpus": 32,
-        "workers": 28,
-        "attempt": 1,
-        "max_attempts": 3,
-        "pipeline_notebook": "viralai_pipeline_implementation_30102026.ipynb",
-        "upstream": [
-          "viralai_data_cleaning_30102026.ipynb",
-          "viralai_sample_size_calculation_30102026.ipynb"
-        ],
-        "started": "2026-11-10T11:55:13+00:00",
-        "last_log_at": "2026-11-10T12:00:27+00:00",
-        "outcome": "failed",
+        "source": "squeue",
+        "restart": null,
+        "profile": null,
+        "cpus": null,
+        "workers": null,
+        "attempt": null,
+        "max_attempts": null,
+        "pipeline_notebook": null,
+        "upstream": [],
+        "started": null,
+        "last_log_at": null,
+        "outcome": null,
         "projection": null,
-        "log_file": "slurm-viralai-full-run-21260075.out"
+        "log_file": null
       },
       "memory": {
-        "series": [
-          {
-            "t": "2026-11-10T11:57:07+00:00",
-            "mem": 0.5,
-            "peak": 1.1,
-            "oom": "0",
-            "procs": 8
-          },
-          {
-            "t": "2026-11-10T11:58:07+00:00",
-            "mem": 2.2,
-            "peak": 2.6,
-            "oom": "0",
-            "procs": 9
-          },
-          {
-            "t": "2026-11-10T11:59:07+00:00",
-            "mem": 0.7,
-            "peak": 2.6,
-            "oom": "0",
-            "procs": 9
-          },
-          {
-            "t": "2026-11-10T12:00:07+00:00",
-            "mem": 1.2,
-            "peak": 2.6,
-            "oom": "0",
-            "procs": 9
-          }
-        ],
-        "current_gb": 1.2,
-        "peak_gb": 2.6,
-        "oom_events": "0",
-        "procs": 9,
-        "limit_gb": 90.0
+        "series": [],
+        "current_gb": null,
+        "peak_gb": null,
+        "oom_events": null,
+        "procs": null,
+        "limit_gb": null
       },
       "pipeline": {
         "run_id": "20261110T150022-ecece3",
@@ -124,53 +92,12 @@
         "sensitivity": [],
         "compute": null
       },
-      "events": [
-        {
-          "at": "2026-11-10T12:00:27+00:00",
-          "kind": "error",
-          "text": "failure is a Python exception in the notebook (not a resource problem): not retrying"
-        },
-        {
-          "at": "2026-11-10T12:00:27+00:00",
-          "kind": "error",
-          "text": "FAILED (exit 1) - see /scratch/degninou/viralai-study-3010/job_runs/21260075 and the .err file"
-        }
-      ],
-      "log_tail": [
-        "[2026-11-10 14:55:13] ==================================================================",
-        "[2026-11-10 14:55:13] job 21260075 (viralai-full-run) restart #1 on n243",
-        "[2026-11-10 14:55:13] cpus=32 mem_per_node=92160MB profile=full",
-        "[2026-11-10 14:55:13] ==================================================================",
-        "[2026-11-10 14:55:13] python: /scratch/degninou/viralai-study-3010/envs/viralai/bin/python 3.11.3",
-        "[2026-11-10 14:55:13] worker pool: VIRALAI_N_JOBS=28 (cpus=32, mem=90G)",
-        "[2026-11-10 14:55:13] pre-flight: packages",
-        "  all packages import (tensorflow + torch in one process OK)",
-        "[2026-11-10 14:57:03] pre-flight: kernel 'viralai' bound to /scratch/degninou/viralai-study-3010/envs/viralai/bin/python",
-        "[2026-11-10 14:57:07] pipeline notebook: /scratch/degninou/viralai-study-3010/viralai_pipeline_implementation_30102026.ipynb",
-        "[2026-11-10 14:57:07] upstream: viralai_data_cleaning_30102026.ipynb",
-        "[2026-11-10 14:58:40] upstream: viralai_sample_size_calculation_30102026.ipynb",
-        "[2026-11-10 14:59:38] pre-flight: all pipeline inputs present",
-        "[2026-11-10 14:59:38] pipeline attempt 1/3: VIRALAI_N_JOBS=28 -> /scratch/degninou/viralai-study-3010/job_runs/21260075/executed_pipeline_r1_a1.ipynb",
-        "[2026-11-10 14:59:38] memory before: mem=0.5G peak=2.6G oom_events=0",
-        "[2026-11-10 15:00:27] attempt 1 exit=1; memory: mem=0.5G peak=2.6G oom_events=0",
-        "[2026-11-10 15:00:27] failure is a Python exception in the notebook (not a resource problem): not retrying",
-        "[2026-11-10 15:00:27] open /scratch/degninou/viralai-study-3010/job_runs/21260075/executed_pipeline_r1_a1.ipynb and look for the cell with the traceback",
-        "[2026-11-10 15:00:27] memory trace: /scratch/degninou/viralai-study-3010/job_runs/21260075/memory.log (last lines below)",
-        "2026-11-10 14:57:07 mem=0.5G peak=1.1G oom_events=0 procs=8",
-        "2026-11-10 14:58:07 mem=2.2G peak=2.6G oom_events=0 procs=9",
-        "2026-11-10 14:59:07 mem=0.7G peak=2.6G oom_events=0 procs=9",
-        "2026-11-10 15:00:07 mem=1.2G peak=2.6G oom_events=0 procs=9",
-        "               JobID                State    Elapsed     MaxRSS     ReqMem      NCPUS ",
-        "-------------------- -------------------- ---------- ---------- ---------- ---------- ",
-        "            21260075              RUNNING   00:05:16                   90G         32 ",
-        "      21260075.batch              RUNNING   00:05:16                               32 ",
-        "     21260075.extern              RUNNING   00:05:16                               32 ",
-        "[2026-11-10 15:00:27] FAILED (exit 1) - see /scratch/degninou/viralai-study-3010/job_runs/21260075 and the .err file"
-      ],
+      "events": [],
+      "log_tail": [],
       "history": [
         {
           "job_id": "21260075",
-          "current": true,
+          "current": false,
           "node": "n243",
           "profile": "full",
           "started": "2026-11-10T11:55:13+00:00",
@@ -217,7 +144,7 @@
       "title": "viralai-study-3010"
     },
     {
-      "generated_utc": "2026-11-10T16:30:03+00:00",
+      "generated_utc": "2026-11-10T16:40:02+00:00",
       "study_dir": "/scratch/degninou/viralai-study-2710",
       "job": {
         "id": "21045118",
