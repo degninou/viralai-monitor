@@ -1,12 +1,12 @@
 {
-  "generated_utc": "2026-11-10T22:10:02+00:00",
+  "generated_utc": "2026-11-10T22:20:02+00:00",
   "study_dir": "/scratch/degninou/viralai-study-3010",
   "job": {
     "id": "21291858",
     "state": "RUNNING",
     "node": "n217",
-    "elapsed": "1:44:11",
-    "left": "3-22:15:49",
+    "elapsed": "1:54:11",
+    "left": "3-22:05:49",
     "reason": "n217",
     "start": "2026-11-10T21:25:51",
     "source": "squeue",
@@ -749,9 +749,79 @@
         "peak": 2.6,
         "oom": "0",
         "procs": 9
+      },
+      {
+        "t": "2026-11-10T20:10:50+00:00",
+        "mem": 2.4,
+        "peak": 2.6,
+        "oom": "0",
+        "procs": 9
+      },
+      {
+        "t": "2026-11-10T20:11:50+00:00",
+        "mem": 2.3,
+        "peak": 2.6,
+        "oom": "0",
+        "procs": 9
+      },
+      {
+        "t": "2026-11-10T20:12:50+00:00",
+        "mem": 2.4,
+        "peak": 2.6,
+        "oom": "0",
+        "procs": 9
+      },
+      {
+        "t": "2026-11-10T20:13:50+00:00",
+        "mem": 2.4,
+        "peak": 2.6,
+        "oom": "0",
+        "procs": 9
+      },
+      {
+        "t": "2026-11-10T20:14:50+00:00",
+        "mem": 2.4,
+        "peak": 2.6,
+        "oom": "0",
+        "procs": 9
+      },
+      {
+        "t": "2026-11-10T20:15:50+00:00",
+        "mem": 2.4,
+        "peak": 2.6,
+        "oom": "0",
+        "procs": 9
+      },
+      {
+        "t": "2026-11-10T20:16:50+00:00",
+        "mem": 2.4,
+        "peak": 2.6,
+        "oom": "0",
+        "procs": 9
+      },
+      {
+        "t": "2026-11-10T20:17:50+00:00",
+        "mem": 2.4,
+        "peak": 2.6,
+        "oom": "0",
+        "procs": 9
+      },
+      {
+        "t": "2026-11-10T20:18:50+00:00",
+        "mem": 2.4,
+        "peak": 2.6,
+        "oom": "0",
+        "procs": 9
+      },
+      {
+        "t": "2026-11-10T20:19:50+00:00",
+        "mem": 2.5,
+        "peak": 2.6,
+        "oom": "0",
+        "procs": 9
       }
     ],
-    "current_gb": 2.3,
+    "current_gb": 2.5,
     "peak_gb": 2.6,
     "oom_events": "0",
     "procs": 9,
@@ -767,16 +837,16 @@
       {
         "stage": "training_run",
         "label": "Training runs",
-        "n": 5,
-        "seconds": 5310.162,
-        "last": "2026-11-10T22:02:25+00:00"
+        "n": 6,
+        "seconds": 6335.183,
+        "last": "2026-11-10T22:19:30+00:00"
       },
       {
         "stage": "fit_final",
         "label": "Final fits",
-        "n": 48,
-        "seconds": 521.3939999999999,
-        "last": "2026-11-10T22:08:32+00:00"
+        "n": 54,
+        "seconds": 551.928,
+        "last": "2026-11-10T22:19:30+00:00"
       },
       {
         "stage": "estimate_compute",
@@ -788,9 +858,9 @@
       {
         "stage": "nested_cv",
         "label": "Nested cross-validation",
-        "n": 6,
-        "seconds": 5.231999999999999,
-        "last": "2026-11-10T22:02:25+00:00"
+        "n": 7,
+        "seconds": 5.959,
+        "last": "2026-11-10T22:19:30+00:00"
       },
       {
         "stage": "eda",
@@ -813,7 +883,7 @@
     "progress": {
       "folds_done": 0,
       "folds_total": 630,
-      "training_runs_done": 5,
+      "training_runs_done": 6,
       "training_runs_total": 7,
       "gates_sealed": 0,
       "gates_total": 17,
