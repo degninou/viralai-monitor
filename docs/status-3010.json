@@ -1,12 +1,12 @@
 {
-  "generated_utc": "2026-11-11T00:50:02+00:00",
+  "generated_utc": "2026-11-11T01:00:07+00:00",
   "study_dir": "/scratch/degninou/viralai-study-3010",
   "job": {
     "id": "21291858",
     "state": "RUNNING",
     "node": "n217",
-    "elapsed": "4:24:10",
-    "left": "3-19:35:50",
+    "elapsed": "4:34:16",
+    "left": "3-19:25:44",
     "reason": "n217",
     "start": "2026-11-10T21:25:51",
     "source": "squeue",
@@ -1869,12 +1869,82 @@
         "peak": 2.9,
         "oom": "0",
         "procs": 9
+      },
+      {
+        "t": "2026-11-10T22:50:55+00:00",
+        "mem": 3.0,
+        "peak": 3.0,
+        "oom": "0",
+        "procs": 9
+      },
+      {
+        "t": "2026-11-10T22:51:55+00:00",
+        "mem": 25.9,
+        "peak": 26.0,
+        "oom": "0",
+        "procs": 39
+      },
+      {
+        "t": "2026-11-10T22:52:55+00:00",
+        "mem": 25.9,
+        "peak": 26.1,
+        "oom": "0",
+        "procs": 39
+      },
+      {
+        "t": "2026-11-10T22:53:55+00:00",
+        "mem": 25.8,
+        "peak": 26.2,
+        "oom": "0",
+        "procs": 39
+      },
+      {
+        "t": "2026-11-10T22:54:55+00:00",
+        "mem": 25.8,
+        "peak": 26.2,
+        "oom": "0",
+        "procs": 39
+      },
+      {
+        "t": "2026-11-10T22:55:55+00:00",
+        "mem": 23.5,
+        "peak": 26.5,
+        "oom": "0",
+        "procs": 39
+      },
+      {
+        "t": "2026-11-10T22:56:55+00:00",
+        "mem": 24.3,
+        "peak": 26.5,
+        "oom": "0",
+        "procs": 39
+      },
+      {
+        "t": "2026-11-10T22:57:55+00:00",
+        "mem": 25.0,
+        "peak": 26.5,
+        "oom": "0",
+        "procs": 39
+      },
+      {
+        "t": "2026-11-10T22:58:55+00:00",
+        "mem": 25.8,
+        "peak": 26.5,
+        "oom": "0",
+        "procs": 39
+      },
+      {
+        "t": "2026-11-10T22:59:55+00:00",
+        "mem": 25.8,
+        "peak": 26.5,
+        "oom": "0",
+        "procs": 39
       }
     ],
-    "current_gb": 2.8,
-    "peak_gb": 2.9,
+    "current_gb": 25.8,
+    "peak_gb": 26.5,
     "oom_events": "0",
-    "procs": 9,
+    "procs": 39,
     "limit_gb": 90.0
   },
   "pipeline": {
@@ -2397,18 +2467,25 @@
         "last": "2026-11-11T00:40:17+00:00"
       },
       {
+        "stage": "sensitivity_S1_no_smotenc",
+        "label": "sensitivity S1 no smotenc",
+        "n": 1,
+        "seconds": 7643.336,
+        "last": "2026-11-11T00:51:23+00:00"
+      },
+      {
+        "stage": "external_evaluation",
+        "label": "External evaluation",
+        "n": 2,
+        "seconds": 1234.6019999999999,
+        "last": "2026-11-11T00:51:19+00:00"
+      },
+      {
         "stage": "fit_final",
         "label": "Final fits",
         "n": 126,
         "seconds": 904.7560000000002,
         "last": "2026-11-11T00:40:17+00:00"
-      },
-      {
-        "stage": "external_evaluation",
-        "label": "External evaluation",
-        "n": 1,
-        "seconds": 578.004,
-        "last": "2026-11-10T22:43:16+00:00"
       },
       {
         "stage": "estimate_compute",
@@ -2634,7 +2711,7 @@
       "training_runs_total": 7,
       "gates_sealed": 17,
       "gates_total": 17,
-      "sensitivity_done": 0,
+      "sensitivity_done": 1,
       "sensitivity_total": 4,
       "report_written": false,
       "deposit_written": false
@@ -2663,7 +2740,9 @@
         "S6_widths_delta"
       ]
     },
-    "sensitivity": [],
+    "sensitivity": [
+      "S1_no_smotenc"
+    ],
     "compute": {
       "profile": "full",
       "probe_training_run": "DEV-POST",
