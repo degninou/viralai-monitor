@@ -1,15 +1,15 @@
 {
-  "generated_utc": "2026-11-11T06:30:06+00:00",
+  "generated_utc": "2026-11-11T06:40:04+00:00",
   "studies": [
     {
-      "generated_utc": "2026-11-11T06:30:06+00:00",
+      "generated_utc": "2026-11-11T06:40:04+00:00",
       "study_dir": "/scratch/degninou/viralai-study-3010",
       "job": {
         "id": "21291858",
         "state": "RUNNING",
         "node": "n217",
-        "elapsed": "10:04:12",
-        "left": "3-13:55:48",
+        "elapsed": "10:14:11",
+        "left": "3-13:45:49",
         "reason": "n217",
         "start": "2026-11-10T21:25:51",
         "source": "squeue",
@@ -4245,9 +4245,79 @@
             "peak": 31.5,
             "oom": "0",
             "procs": 39
+          },
+          {
+            "t": "2026-11-11T04:30:09+00:00",
+            "mem": 26.9,
+            "peak": 31.5,
+            "oom": "0",
+            "procs": 39
+          },
+          {
+            "t": "2026-11-11T04:31:09+00:00",
+            "mem": 27.0,
+            "peak": 31.5,
+            "oom": "0",
+            "procs": 39
+          },
+          {
+            "t": "2026-11-11T04:32:09+00:00",
+            "mem": 27.0,
+            "peak": 31.5,
+            "oom": "0",
+            "procs": 39
+          },
+          {
+            "t": "2026-11-11T04:33:09+00:00",
+            "mem": 27.1,
+            "peak": 31.5,
+            "oom": "0",
+            "procs": 39
+          },
+          {
+            "t": "2026-11-11T04:34:09+00:00",
+            "mem": 26.1,
+            "peak": 31.5,
+            "oom": "0",
+            "procs": 38
+          },
+          {
+            "t": "2026-11-11T04:35:09+00:00",
+            "mem": 26.7,
+            "peak": 31.5,
+            "oom": "0",
+            "procs": 39
+          },
+          {
+            "t": "2026-11-11T04:36:09+00:00",
+            "mem": 26.5,
+            "peak": 31.5,
+            "oom": "0",
+            "procs": 39
+          },
+          {
+            "t": "2026-11-11T04:37:09+00:00",
+            "mem": 26.6,
+            "peak": 31.5,
+            "oom": "0",
+            "procs": 39
+          },
+          {
+            "t": "2026-11-11T04:38:09+00:00",
+            "mem": 26.8,
+            "peak": 31.5,
+            "oom": "0",
+            "procs": 39
+          },
+          {
+            "t": "2026-11-11T04:39:09+00:00",
+            "mem": 26.4,
+            "peak": 31.5,
+            "oom": "0",
+            "procs": 39
           }
         ],
-        "current_gb": 26.8,
+        "current_gb": 26.4,
         "peak_gb": 31.5,
         "oom_events": "0",
         "procs": 39,
@@ -4768,9 +4838,9 @@
           {
             "stage": "tune_outer_fold",
             "label": "Outer folds",
-            "n": 162,
-            "seconds": 20134.659999999996,
-            "last": "2026-11-11T06:27:24+00:00"
+            "n": 163,
+            "seconds": 20548.108999999997,
+            "last": "2026-11-11T06:34:17+00:00"
           },
           {
             "stage": "training_run",
@@ -5018,7 +5088,7 @@
         "tags": [],
         "acceptance": [],
         "progress": {
-          "folds_done": 162,
+          "folds_done": 163,
           "folds_total": 630,
           "training_runs_done": 14,
           "training_runs_total": 7,
@@ -5148,7 +5218,7 @@
       "title": "viralai-study-3010"
     },
     {
-      "generated_utc": "2026-11-11T06:30:03+00:00",
+      "generated_utc": "2026-11-11T06:40:02+00:00",
       "study_dir": "/scratch/degninou/viralai-study-2710",
       "job": {
         "id": "21045118",
