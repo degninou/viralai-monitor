@@ -1,12 +1,12 @@
 {
-  "generated_utc": "2026-11-14T16:40:03+00:00",
+  "generated_utc": "2026-11-14T16:50:02+00:00",
   "study_dir": "/scratch/degninou/viralai-study-3010",
   "job": {
     "id": "21291858",
     "state": "RUNNING",
     "node": "n217",
-    "elapsed": "3-20:14:11",
-    "left": "3:45:49",
+    "elapsed": "3-20:24:10",
+    "left": "3:35:50",
     "reason": "n217",
     "start": "2026-11-10T21:25:51",
     "source": "squeue",
@@ -29,76 +29,6 @@
   },
   "memory": {
     "series": [
-      {
-        "t": "2026-11-14T02:39:52+00:00",
-        "mem": 28.5,
-        "peak": 35.4,
-        "oom": "0",
-        "procs": 39
-      },
-      {
-        "t": "2026-11-14T02:40:52+00:00",
-        "mem": 28.4,
-        "peak": 35.4,
-        "oom": "0",
-        "procs": 39
-      },
-      {
-        "t": "2026-11-14T02:41:52+00:00",
-        "mem": 28.5,
-        "peak": 35.4,
-        "oom": "0",
-        "procs": 39
-      },
-      {
-        "t": "2026-11-14T02:42:52+00:00",
-        "mem": 28.6,
-        "peak": 35.4,
-        "oom": "0",
-        "procs": 39
-      },
-      {
-        "t": "2026-11-14T02:43:52+00:00",
-        "mem": 28.9,
-        "peak": 35.4,
-        "oom": "0",
-        "procs": 39
-      },
-      {
-        "t": "2026-11-14T02:44:52+00:00",
-        "mem": 28.9,
-        "peak": 35.4,
-        "oom": "0",
-        "procs": 39
-      },
-      {
-        "t": "2026-11-14T02:45:52+00:00",
-        "mem": 28.7,
-        "peak": 35.4,
-        "oom": "0",
-        "procs": 39
-      },
-      {
-        "t": "2026-11-14T02:46:52+00:00",
-        "mem": 28.9,
-        "peak": 35.4,
-        "oom": "0",
-        "procs": 39
-      },
-      {
-        "t": "2026-11-14T02:47:52+00:00",
-        "mem": 13.0,
-        "peak": 35.4,
-        "oom": "0",
-        "procs": 19
-      },
-      {
-        "t": "2026-11-14T02:48:52+00:00",
-        "mem": 6.6,
-        "peak": 35.4,
-        "oom": "0",
-        "procs": 11
-      },
       {
         "t": "2026-11-14T02:49:52+00:00",
         "mem": 6.7,
@@ -5068,6 +4998,76 @@
         "peak": 35.4,
         "oom": "0",
         "procs": 11
+      },
+      {
+        "t": "2026-11-14T14:40:19+00:00",
+        "mem": 7.1,
+        "peak": 35.4,
+        "oom": "0",
+        "procs": 11
+      },
+      {
+        "t": "2026-11-14T14:41:19+00:00",
+        "mem": 7.1,
+        "peak": 35.4,
+        "oom": "0",
+        "procs": 11
+      },
+      {
+        "t": "2026-11-14T14:42:19+00:00",
+        "mem": 7.1,
+        "peak": 35.4,
+        "oom": "0",
+        "procs": 11
+      },
+      {
+        "t": "2026-11-14T14:43:19+00:00",
+        "mem": 7.1,
+        "peak": 35.4,
+        "oom": "0",
+        "procs": 11
+      },
+      {
+        "t": "2026-11-14T14:44:19+00:00",
+        "mem": 6.9,
+        "peak": 35.4,
+        "oom": "0",
+        "procs": 11
+      },
+      {
+        "t": "2026-11-14T14:45:19+00:00",
+        "mem": 7.1,
+        "peak": 35.4,
+        "oom": "0",
+        "procs": 11
+      },
+      {
+        "t": "2026-11-14T14:46:19+00:00",
+        "mem": 7.0,
+        "peak": 35.4,
+        "oom": "0",
+        "procs": 11
+      },
+      {
+        "t": "2026-11-14T14:47:19+00:00",
+        "mem": 7.2,
+        "peak": 35.4,
+        "oom": "0",
+        "procs": 11
+      },
+      {
+        "t": "2026-11-14T14:48:19+00:00",
+        "mem": 7.1,
+        "peak": 35.4,
+        "oom": "0",
+        "procs": 11
+      },
+      {
+        "t": "2026-11-14T14:49:19+00:00",
+        "mem": 7.1,
+        "peak": 35.4,
+        "oom": "0",
+        "procs": 11
       }
     ],
     "current_gb": 7.1,
@@ -5085,504 +5085,504 @@
       {
         "dev_key": "DEV-LOCO-BFA",
         "algorithm": "LR",
-        "internal_auc": 0.6637222625466611,
-        "auc_lcl": 0.6231320611758983,
+        "internal_auc": 0.6579177035808101,
+        "auc_lcl": 0.6174941390687366,
         "floor_met": false,
         "source": "F0"
       },
       {
         "dev_key": "DEV-LOCO-BFA",
         "algorithm": "RF",
-        "internal_auc": 0.7093767281902392,
-        "auc_lcl": 0.6714813677948431,
+        "internal_auc": 0.7073871491773814,
+        "auc_lcl": 0.6692937956823557,
         "floor_met": false,
         "source": "F0"
       },
       {
         "dev_key": "DEV-LOCO-BFA",
         "algorithm": "SVM",
-        "internal_auc": 0.6923950988524816,
-        "auc_lcl": 0.6535593244953294,
+        "internal_auc": 0.6551914834785013,
+        "auc_lcl": 0.6163056416613918,
         "floor_met": false,
         "source": "F0"
       },
       {
         "dev_key": "DEV-LOCO-BFA",
         "algorithm": "NB",
-        "internal_auc": 0.6620469981335545,
-        "auc_lcl": 0.6193648874984385,
+        "internal_auc": 0.6600671401907922,
+        "auc_lcl": 0.6169941064821004,
         "floor_met": false,
         "source": "F0"
       },
       {
         "dev_key": "DEV-LOCO-BFA",
         "algorithm": "GBM",
-        "internal_auc": 0.6832205689202268,
-        "auc_lcl": 0.6440902592221689,
+        "internal_auc": 0.6973388030554404,
+        "auc_lcl": 0.658600485055164,
         "floor_met": false,
         "source": "F0"
       },
       {
         "dev_key": "DEV-LOCO-BFA",
         "algorithm": "XGBoost",
-        "internal_auc": 0.7128309484308033,
-        "auc_lcl": 0.6744453996853608,
+        "internal_auc": 0.7088701524263791,
+        "auc_lcl": 0.6699308881515753,
         "floor_met": false,
         "source": "F0"
       },
       {
         "dev_key": "DEV-LOCO-BFA",
         "algorithm": "LightGBM",
-        "internal_auc": 0.7053921695700263,
-        "auc_lcl": 0.6664404879127512,
+        "internal_auc": 0.7001395513618139,
+        "auc_lcl": 0.660698283613259,
         "floor_met": false,
         "source": "F0"
       },
       {
         "dev_key": "DEV-LOCO-BFA",
         "algorithm": "MLP",
-        "internal_auc": 0.679077232821789,
-        "auc_lcl": 0.6388301107025023,
+        "internal_auc": 0.6824245212913037,
+        "auc_lcl": 0.641727643328962,
         "floor_met": false,
         "source": "F0"
       },
       {
         "dev_key": "DEV-LOCO-BFA",
         "algorithm": "TabNet",
-        "internal_auc": 0.6722390000691276,
-        "auc_lcl": 0.6334763041159696,
+        "internal_auc": 0.6663588327803125,
+        "auc_lcl": 0.6265098542774481,
         "floor_met": false,
         "source": "F0"
       },
       {
         "dev_key": "DEV-LOCO-CIV",
         "algorithm": "LR",
-        "internal_auc": 0.6972592848196713,
-        "auc_lcl": 0.6597207740964799,
+        "internal_auc": 0.698254010854655,
+        "auc_lcl": 0.6607271115170071,
         "floor_met": false,
         "source": "F0"
       },
       {
         "dev_key": "DEV-LOCO-CIV",
         "algorithm": "RF",
-        "internal_auc": 0.7350833695439171,
-        "auc_lcl": 0.7008763861371823,
+        "internal_auc": 0.7362676686348184,
+        "auc_lcl": 0.7019219972402556,
         "floor_met": false,
         "source": "F0"
       },
       {
         "dev_key": "DEV-LOCO-CIV",
         "algorithm": "SVM",
-        "internal_auc": 0.702472543857407,
-        "auc_lcl": 0.6669390159511844,
+        "internal_auc": 0.6700459661409742,
+        "auc_lcl": 0.6297590168604426,
         "floor_met": false,
         "source": "F0"
       },
       {
         "dev_key": "DEV-LOCO-CIV",
         "algorithm": "NB",
-        "internal_auc": 0.6843342364678918,
-        "auc_lcl": 0.6430517222006351,
+        "internal_auc": 0.6840775673303854,
+        "auc_lcl": 0.6426760292941,
         "floor_met": false,
         "source": "F0"
       },
       {
         "dev_key": "DEV-LOCO-CIV",
         "algorithm": "GBM",
-        "internal_auc": 0.7245247893396042,
-        "auc_lcl": 0.6893269041404972,
+        "internal_auc": 0.7271596418134261,
+        "auc_lcl": 0.6924669121259364,
         "floor_met": false,
         "source": "F0"
       },
       {
         "dev_key": "DEV-LOCO-CIV",
         "algorithm": "XGBoost",
-        "internal_auc": 0.7374604878630644,
-        "auc_lcl": 0.7028149116043316,
+        "internal_auc": 0.7396416430232855,
+        "auc_lcl": 0.7056953183004439,
         "floor_met": false,
         "source": "F0"
       },
       {
         "dev_key": "DEV-LOCO-CIV",
         "algorithm": "LightGBM",
-        "internal_auc": 0.7403296441138632,
-        "auc_lcl": 0.705291593578816,
+        "internal_auc": 0.7398408012337159,
+        "auc_lcl": 0.7046223404994536,
         "floor_met": false,
         "source": "F0"
       },
       {
         "dev_key": "DEV-LOCO-CIV",
         "algorithm": "MLP",
-        "internal_auc": 0.6971762134805614,
-        "auc_lcl": 0.6612324646556842,
+        "internal_auc": 0.6870457701778153,
+        "auc_lcl": 0.6501078385301194,
         "floor_met": false,
         "source": "F0"
       },
       {
         "dev_key": "DEV-LOCO-CIV",
         "algorithm": "TabNet",
-        "internal_auc": 0.7204361884313575,
-        "auc_lcl": 0.6858040032139028,
+        "internal_auc": 0.6937596384053711,
+        "auc_lcl": 0.6594208149793602,
         "floor_met": false,
         "source": "F0"
       },
       {
         "dev_key": "DEV-LOCO-NGA",
         "algorithm": "LR",
-        "internal_auc": 0.7522960582429633,
-        "auc_lcl": 0.6998004751529203,
-        "floor_met": false,
+        "internal_auc": 0.7592718106494456,
+        "auc_lcl": 0.7085483675782477,
+        "floor_met": true,
         "source": "F0"
       },
       {
         "dev_key": "DEV-LOCO-NGA",
         "algorithm": "RF",
-        "internal_auc": 0.7891548373339832,
-        "auc_lcl": 0.7416806416960517,
+        "internal_auc": 0.7863828134519313,
+        "auc_lcl": 0.7380941094006042,
         "floor_met": true,
         "source": "F0"
       },
       {
         "dev_key": "DEV-LOCO-NGA",
         "algorithm": "SVM",
-        "internal_auc": 0.7726293103448276,
-        "auc_lcl": 0.7225595586968924,
+        "internal_auc": 0.7586168819300597,
+        "auc_lcl": 0.7078444546839839,
         "floor_met": true,
         "source": "F0"
       },
       {
         "dev_key": "DEV-LOCO-NGA",
         "algorithm": "NB",
-        "internal_auc": 0.7232355001827708,
-        "auc_lcl": 0.6698648611188599,
+        "internal_auc": 0.7219027963933228,
+        "auc_lcl": 0.6681547345747072,
         "floor_met": false,
         "source": "F0"
       },
       {
         "dev_key": "DEV-LOCO-NGA",
         "algorithm": "GBM",
-        "internal_auc": 0.7809948824174485,
-        "auc_lcl": 0.7311068056825071,
+        "internal_auc": 0.7792699829413915,
+        "auc_lcl": 0.7298086253152304,
         "floor_met": true,
         "source": "F0"
       },
       {
         "dev_key": "DEV-LOCO-NGA",
         "algorithm": "XGBoost",
-        "internal_auc": 0.7807549957353479,
-        "auc_lcl": 0.7305115932203282,
+        "internal_auc": 0.7754889119044718,
+        "auc_lcl": 0.7250641901486721,
         "floor_met": true,
         "source": "F0"
       },
       {
         "dev_key": "DEV-LOCO-NGA",
         "algorithm": "LightGBM",
-        "internal_auc": 0.7936251066163031,
-        "auc_lcl": 0.745180966138609,
+        "internal_auc": 0.7882447910320458,
+        "auc_lcl": 0.7387102318218206,
         "floor_met": true,
         "source": "F0"
       },
       {
         "dev_key": "DEV-LOCO-NGA",
         "algorithm": "MLP",
-        "internal_auc": 0.7738630132813452,
-        "auc_lcl": 0.7227978922588258,
+        "internal_auc": 0.7689205860850493,
+        "auc_lcl": 0.716291425241383,
         "floor_met": true,
         "source": "F0"
       },
       {
         "dev_key": "DEV-LOCO-NGA",
         "algorithm": "TabNet",
-        "internal_auc": 0.7614003289874497,
-        "auc_lcl": 0.7084263292357758,
-        "floor_met": true,
+        "internal_auc": 0.7480580601925186,
+        "auc_lcl": 0.6949723719203844,
+        "floor_met": false,
         "source": "F0"
       },
       {
         "dev_key": "DEV-LOCO-TGO",
         "algorithm": "LR",
-        "internal_auc": 0.6940456778270522,
-        "auc_lcl": 0.6569262306480522,
+        "internal_auc": 0.6950603737738561,
+        "auc_lcl": 0.6579902763428782,
         "floor_met": false,
         "source": "F0"
       },
       {
         "dev_key": "DEV-LOCO-TGO",
         "algorithm": "RF",
-        "internal_auc": 0.7327323895010084,
-        "auc_lcl": 0.6970620124723744,
+        "internal_auc": 0.7311627221790437,
+        "auc_lcl": 0.6954732435108854,
         "floor_met": false,
         "source": "F0"
       },
       {
         "dev_key": "DEV-LOCO-TGO",
         "algorithm": "SVM",
-        "internal_auc": 0.6876844613094785,
-        "auc_lcl": 0.6525390162504308,
+        "internal_auc": 0.6814654800184906,
+        "auc_lcl": 0.6451881249281141,
         "floor_met": false,
         "source": "F0"
       },
       {
         "dev_key": "DEV-LOCO-TGO",
         "algorithm": "NB",
-        "internal_auc": 0.6429337031449225,
-        "auc_lcl": 0.5997491160574657,
+        "internal_auc": 0.647701123150307,
+        "auc_lcl": 0.6051419168477371,
         "floor_met": false,
         "source": "F0"
       },
       {
         "dev_key": "DEV-LOCO-TGO",
         "algorithm": "GBM",
-        "internal_auc": 0.7250821662425009,
-        "auc_lcl": 0.6895690539734617,
+        "internal_auc": 0.7190117699649999,
+        "auc_lcl": 0.683345434841628,
         "floor_met": false,
         "source": "F0"
       },
       {
         "dev_key": "DEV-LOCO-TGO",
         "algorithm": "XGBoost",
-        "internal_auc": 0.7303740786459206,
-        "auc_lcl": 0.6951033492645018,
+        "internal_auc": 0.7283116678604266,
+        "auc_lcl": 0.6934450201164223,
         "floor_met": false,
         "source": "F0"
       },
       {
         "dev_key": "DEV-LOCO-TGO",
         "algorithm": "LightGBM",
-        "internal_auc": 0.7366438582321178,
-        "auc_lcl": 0.7009393265241478,
+        "internal_auc": 0.7310992243100322,
+        "auc_lcl": 0.6964267123682686,
         "floor_met": false,
         "source": "F0"
       },
       {
         "dev_key": "DEV-LOCO-TGO",
         "algorithm": "MLP",
-        "internal_auc": 0.7074729372082272,
-        "auc_lcl": 0.6710273411526263,
+        "internal_auc": 0.6927134925351905,
+        "auc_lcl": 0.6549143910200472,
         "floor_met": false,
         "source": "F0"
       },
       {
         "dev_key": "DEV-LOCO-TGO",
         "algorithm": "TabNet",
-        "internal_auc": 0.7127292908050006,
-        "auc_lcl": 0.6764492757015323,
+        "internal_auc": 0.5934180648897422,
+        "auc_lcl": 0.5543137357408358,
         "floor_met": false,
         "source": "F0"
       },
       {
         "dev_key": "DEV-LOCO-BEN",
         "algorithm": "LR",
-        "internal_auc": 0.7015676000915854,
-        "auc_lcl": 0.6681935605786217,
+        "internal_auc": 0.6889772793831834,
+        "auc_lcl": 0.655563191005196,
         "floor_met": false,
         "source": "F0"
       },
       {
         "dev_key": "DEV-LOCO-BEN",
         "algorithm": "RF",
-        "internal_auc": 0.7468819276937358,
-        "auc_lcl": 0.7148015223437769,
+        "internal_auc": 0.7463618792032076,
+        "auc_lcl": 0.7151651811154747,
         "floor_met": false,
         "source": "F0"
       },
       {
         "dev_key": "DEV-LOCO-BEN",
         "algorithm": "SVM",
-        "internal_auc": 0.7120404537378707,
-        "auc_lcl": 0.6795727995569871,
+        "internal_auc": 0.6944218143480136,
+        "auc_lcl": 0.661681261072514,
         "floor_met": false,
         "source": "F0"
       },
       {
         "dev_key": "DEV-LOCO-BEN",
         "algorithm": "NB",
-        "internal_auc": 0.6624361698162436,
-        "auc_lcl": 0.6248548220646793,
+        "internal_auc": 0.6608751368898971,
+        "auc_lcl": 0.6230063107967794,
         "floor_met": false,
         "source": "F0"
       },
       {
         "dev_key": "DEV-LOCO-BEN",
         "algorithm": "GBM",
-        "internal_auc": 0.7369566336356004,
-        "auc_lcl": 0.7040235236575956,
+        "internal_auc": 0.7350317442568365,
+        "auc_lcl": 0.7019888997553919,
         "floor_met": false,
         "source": "F0"
       },
       {
         "dev_key": "DEV-LOCO-BEN",
         "algorithm": "XGBoost",
-        "internal_auc": 0.7402002807906867,
-        "auc_lcl": 0.707581335680718,
+        "internal_auc": 0.7406351336240635,
+        "auc_lcl": 0.7085785025733423,
         "floor_met": false,
         "source": "F0"
       },
       {
         "dev_key": "DEV-LOCO-BEN",
         "algorithm": "LightGBM",
-        "internal_auc": 0.7436631292719854,
-        "auc_lcl": 0.7106280154732825,
+        "internal_auc": 0.7479521981367,
+        "auc_lcl": 0.7156111688498088,
         "floor_met": false,
         "source": "F0"
       },
       {
         "dev_key": "DEV-LOCO-BEN",
         "algorithm": "MLP",
-        "internal_auc": 0.708983172082803,
-        "auc_lcl": 0.6753365715998121,
+        "internal_auc": 0.6986656230198666,
+        "auc_lcl": 0.6643946667278082,
         "floor_met": false,
         "source": "F0"
       },
       {
         "dev_key": "DEV-LOCO-BEN",
         "algorithm": "TabNet",
-        "internal_auc": 0.7058185084015343,
-        "auc_lcl": 0.6712344815439437,
+        "internal_auc": 0.6675408096072303,
+        "auc_lcl": 0.6318115626630264,
         "floor_met": false,
         "source": "F0"
       },
       {
         "dev_key": "DEV-POST",
         "algorithm": "LR",
-        "internal_auc": 0.6812936837490006,
-        "auc_lcl": 0.6407489441337229,
+        "internal_auc": 0.6807146725814356,
+        "auc_lcl": 0.6403779790576024,
         "floor_met": false,
         "source": "F0"
       },
       {
         "dev_key": "DEV-POST",
         "algorithm": "RF",
-        "internal_auc": 0.723508627137441,
-        "auc_lcl": 0.6857319861836286,
+        "internal_auc": 0.7232146081035772,
+        "auc_lcl": 0.6853332326911773,
         "floor_met": false,
         "source": "F0"
       },
       {
         "dev_key": "DEV-POST",
         "algorithm": "SVM",
-        "internal_auc": 0.7056160214582312,
-        "auc_lcl": 0.6683983194227291,
+        "internal_auc": 0.6712080571531736,
+        "auc_lcl": 0.6310335050447077,
         "floor_met": false,
         "source": "F0"
       },
       {
         "dev_key": "DEV-POST",
         "algorithm": "NB",
-        "internal_auc": 0.6509259020452377,
-        "auc_lcl": 0.6077481897976054,
+        "internal_auc": 0.6519756015784179,
+        "auc_lcl": 0.6090933615884495,
         "floor_met": false,
         "source": "F0"
       },
       {
         "dev_key": "DEV-POST",
         "algorithm": "GBM",
-        "internal_auc": 0.7185373842622443,
-        "auc_lcl": 0.6806608433050363,
+        "internal_auc": 0.7202524952931163,
+        "auc_lcl": 0.6823180051134929,
         "floor_met": false,
         "source": "F0"
       },
       {
         "dev_key": "DEV-POST",
         "algorithm": "XGBoost",
-        "internal_auc": 0.7184677481752766,
-        "auc_lcl": 0.680141591242061,
+        "internal_auc": 0.7203724241095608,
+        "auc_lcl": 0.6820759488986746,
         "floor_met": false,
         "source": "F0"
       },
       {
         "dev_key": "DEV-POST",
         "algorithm": "LightGBM",
-        "internal_auc": 0.717112423593738,
-        "auc_lcl": 0.6783183899054996,
+        "internal_auc": 0.717766229076935,
+        "auc_lcl": 0.6789939071732396,
         "floor_met": false,
         "source": "F0"
       },
       {
         "dev_key": "DEV-POST",
         "algorithm": "MLP",
-        "internal_auc": 0.6892296185489902,
-        "auc_lcl": 0.64892831044019,
+        "internal_auc": 0.6842674025739561,
+        "auc_lcl": 0.6440107883363404,
         "floor_met": false,
         "source": "F0"
       },
       {
         "dev_key": "DEV-POST",
         "algorithm": "TabNet",
-        "internal_auc": 0.6986356485182988,
-        "auc_lcl": 0.6584369580673637,
+        "internal_auc": 0.6447128156191164,
+        "auc_lcl": 0.6047374471999469,
         "floor_met": false,
         "source": "F0"
       },
       {
         "dev_key": "DEV-EARLY",
         "algorithm": "LR",
-        "internal_auc": 0.721543427345549,
-        "auc_lcl": 0.6834431809175603,
+        "internal_auc": 0.7205632860320023,
+        "auc_lcl": 0.6818669959617925,
         "floor_met": false,
         "source": "F0"
       },
       {
         "dev_key": "DEV-EARLY",
         "algorithm": "RF",
-        "internal_auc": 0.7429116888740184,
-        "auc_lcl": 0.705366151494798,
+        "internal_auc": 0.7444684996752544,
+        "auc_lcl": 0.707484252342505,
         "floor_met": false,
         "source": "F0"
       },
       {
         "dev_key": "DEV-EARLY",
         "algorithm": "SVM",
-        "internal_auc": 0.7242870357613809,
-        "auc_lcl": 0.6868632654180137,
+        "internal_auc": 0.7185498632132102,
+        "auc_lcl": 0.6804430864256206,
         "floor_met": false,
         "source": "F0"
       },
       {
         "dev_key": "DEV-EARLY",
         "algorithm": "NB",
-        "internal_auc": 0.6762896337263083,
-        "auc_lcl": 0.6301593904312892,
+        "internal_auc": 0.6735617705524611,
+        "auc_lcl": 0.6273268460782482,
         "floor_met": false,
         "source": "F0"
       },
       {
         "dev_key": "DEV-EARLY",
         "algorithm": "GBM",
-        "internal_auc": 0.7285402192524947,
-        "auc_lcl": 0.6896153309578563,
+        "internal_auc": 0.7225156960381035,
+        "auc_lcl": 0.6825812445024584,
         "floor_met": false,
         "source": "F0"
       },
       {
         "dev_key": "DEV-EARLY",
         "algorithm": "XGBoost",
-        "internal_auc": 0.7413096105020764,
-        "auc_lcl": 0.7030072031089245,
+        "internal_auc": 0.7350666220551477,
+        "auc_lcl": 0.6968839816419707,
         "floor_met": false,
         "source": "F0"
       },
       {
         "dev_key": "DEV-EARLY",
         "algorithm": "LightGBM",
-        "internal_auc": 0.7398846661024622,
-        "auc_lcl": 0.7007396972407638,
+        "internal_auc": 0.740866775571257,
+        "auc_lcl": 0.7024384239848741,
         "floor_met": false,
         "source": "F0"
       },
       {
         "dev_key": "DEV-EARLY",
         "algorithm": "MLP",
-        "internal_auc": 0.7332441102954201,
-        "auc_lcl": 0.6953262986116745,
+        "internal_auc": 0.7260327894664331,
+        "auc_lcl": 0.6877506102978598,
         "floor_met": false,
         "source": "F0"
       },
       {
         "dev_key": "DEV-EARLY",
         "algorithm": "TabNet",
-        "internal_auc": 0.6817689779369797,
-        "auc_lcl": 0.6408134997056867,
+        "internal_auc": 0.6990139542207089,
+        "auc_lcl": 0.6565854882105445,
         "floor_met": false,
         "source": "F0"
       }
@@ -5601,6 +5601,13 @@
         "n": 2440,
         "seconds": 286833.314,
         "last": "2026-11-14T16:20:54+00:00"
+      },
+      {
+        "stage": "sensitivity_S4_robust_scaling",
+        "label": "sensitivity S4 robust scaling",
+        "n": 1,
+        "seconds": 159893.289,
+        "last": "2026-11-14T16:47:21+00:00"
       },
       {
         "stage": "sensitivity_S3_alt_outcomes",
@@ -5633,9 +5640,9 @@
       {
         "stage": "external_evaluation",
         "label": "External evaluation",
-        "n": 4,
-        "seconds": 1473.012,
-        "last": "2026-11-12T20:22:24+00:00"
+        "n": 5,
+        "seconds": 2200.653,
+        "last": "2026-11-14T16:47:18+00:00"
       },
       {
         "stage": "estimate_compute",
@@ -5654,9 +5661,9 @@
       {
         "stage": "gates_and_shift",
         "label": "Gates and shift diagnostics",
-        "n": 5,
-        "seconds": 17.294,
-        "last": "2026-11-14T16:35:10+00:00"
+        "n": 6,
+        "seconds": 18.666,
+        "last": "2026-11-14T16:47:22+00:00"
       },
       {
         "stage": "eda",
@@ -5854,7 +5861,7 @@
       "training_runs_total": 7,
       "gates_sealed": 17,
       "gates_total": 17,
-      "sensitivity_done": 2,
+      "sensitivity_done": 3,
       "sensitivity_total": 4,
       "report_written": false,
       "deposit_written": false
@@ -5885,7 +5892,8 @@
     },
     "sensitivity": [
       "S1_no_smotenc",
-      "S3_alt_outcomes"
+      "S3_alt_outcomes",
+      "S4_robust_scaling"
     ],
     "compute": {
       "profile": "full",
