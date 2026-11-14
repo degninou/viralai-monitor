@@ -1,8 +1,8 @@
 {
-  "generated_utc": "2026-11-14T17:50:05+00:00",
+  "generated_utc": "2026-11-14T18:00:07+00:00",
   "studies": [
     {
-      "generated_utc": "2026-11-14T17:50:05+00:00",
+      "generated_utc": "2026-11-14T18:00:06+00:00",
       "study_dir": "/scratch/degninou/viralai-study-3010",
       "job": {
         "id": "21291858",
@@ -6156,7 +6156,7 @@
       "title": "viralai-study-3010"
     },
     {
-      "generated_utc": "2026-11-14T17:50:04+00:00",
+      "generated_utc": "2026-11-14T18:00:06+00:00",
       "study_dir": "/scratch/degninou/viralai-study-2710",
       "job": {
         "id": "21045118",
