@@ -1,18 +1,18 @@
 {
-  "generated_utc": "2026-11-14T16:50:02+00:00",
+  "generated_utc": "2026-11-14T17:00:07+00:00",
   "studies": [
     {
-      "generated_utc": "2026-11-14T16:50:02+00:00",
+      "generated_utc": "2026-11-14T17:00:07+00:00",
       "study_dir": "/scratch/degninou/viralai-study-3010",
       "job": {
         "id": "21291858",
-        "state": "RUNNING",
+        "state": "COMPLETED",
         "node": "n217",
-        "elapsed": "3-20:24:10",
-        "left": "3:35:50",
-        "reason": "n217",
-        "start": "2026-11-10T21:25:51",
-        "source": "squeue",
+        "elapsed": "3-20:32:03",
+        "left": "",
+        "reason": "exit 0:0",
+        "start": "",
+        "source": "sacct",
         "restart": 0,
         "profile": "full",
         "cpus": 32,
@@ -25,69 +25,13 @@
           "viralai_sample_size_calculation_30102026.ipynb"
         ],
         "started": "2026-11-10T18:25:54+00:00",
-        "last_log_at": "2026-11-10T18:30:23+00:00",
-        "outcome": null,
+        "last_log_at": "2026-11-14T14:57:51+00:00",
+        "outcome": "success",
         "projection": null,
         "log_file": "slurm-viralai-full-run-21291858.out"
       },
       "memory": {
         "series": [
-          {
-            "t": "2026-11-14T02:49:52+00:00",
-            "mem": 6.7,
-            "peak": 35.4,
-            "oom": "0",
-            "procs": 11
-          },
-          {
-            "t": "2026-11-14T02:50:52+00:00",
-            "mem": 6.7,
-            "peak": 35.4,
-            "oom": "0",
-            "procs": 11
-          },
-          {
-            "t": "2026-11-14T02:51:52+00:00",
-            "mem": 6.7,
-            "peak": 35.4,
-            "oom": "0",
-            "procs": 11
-          },
-          {
-            "t": "2026-11-14T02:52:52+00:00",
-            "mem": 6.7,
-            "peak": 35.4,
-            "oom": "0",
-            "procs": 11
-          },
-          {
-            "t": "2026-11-14T02:53:52+00:00",
-            "mem": 6.7,
-            "peak": 35.4,
-            "oom": "0",
-            "procs": 11
-          },
-          {
-            "t": "2026-11-14T02:54:52+00:00",
-            "mem": 6.7,
-            "peak": 35.4,
-            "oom": "0",
-            "procs": 11
-          },
-          {
-            "t": "2026-11-14T02:55:52+00:00",
-            "mem": 6.7,
-            "peak": 35.4,
-            "oom": "0",
-            "procs": 11
-          },
-          {
-            "t": "2026-11-14T02:56:52+00:00",
-            "mem": 6.7,
-            "peak": 35.4,
-            "oom": "0",
-            "procs": 11
-          },
           {
             "t": "2026-11-14T02:57:53+00:00",
             "mem": 6.6,
@@ -5071,9 +5015,65 @@
             "peak": 35.4,
             "oom": "0",
             "procs": 11
+          },
+          {
+            "t": "2026-11-14T14:50:19+00:00",
+            "mem": 7.1,
+            "peak": 35.4,
+            "oom": "0",
+            "procs": 11
+          },
+          {
+            "t": "2026-11-14T14:51:19+00:00",
+            "mem": 7.0,
+            "peak": 35.4,
+            "oom": "0",
+            "procs": 11
+          },
+          {
+            "t": "2026-11-14T14:52:19+00:00",
+            "mem": 7.1,
+            "peak": 35.4,
+            "oom": "0",
+            "procs": 11
+          },
+          {
+            "t": "2026-11-14T14:53:19+00:00",
+            "mem": 7.1,
+            "peak": 35.4,
+            "oom": "0",
+            "procs": 11
+          },
+          {
+            "t": "2026-11-14T14:54:20+00:00",
+            "mem": 7.1,
+            "peak": 35.4,
+            "oom": "0",
+            "procs": 11
+          },
+          {
+            "t": "2026-11-14T14:55:20+00:00",
+            "mem": 7.0,
+            "peak": 35.4,
+            "oom": "0",
+            "procs": 11
+          },
+          {
+            "t": "2026-11-14T14:56:20+00:00",
+            "mem": 7.1,
+            "peak": 35.4,
+            "oom": "0",
+            "procs": 11
+          },
+          {
+            "t": "2026-11-14T14:57:20+00:00",
+            "mem": 7.2,
+            "peak": 35.4,
+            "oom": "0",
+            "procs": 11
           }
         ],
-        "current_gb": 7.1,
+        "current_gb": 7.2,
         "peak_gb": 35.4,
         "oom_events": "0",
         "procs": 11,
@@ -5081,7 +5081,7 @@
       },
       "pipeline": {
         "run_id": "20261110T213108-8503e9",
-        "status": null,
+        "status": "FINISHED",
         "profile": "full",
         "started_utc": "2026-11-10T20:31:08+00:00",
         "models": [
@@ -5592,6 +5592,13 @@
         ],
         "stages": [
           {
+            "stage": "TOTAL",
+            "label": "Total",
+            "n": 1,
+            "seconds": 332773.03,
+            "last": "2026-11-14T16:57:21+00:00"
+          },
+          {
             "stage": "training_run",
             "label": "Training runs",
             "n": 35,
@@ -5634,6 +5641,13 @@
             "last": "2026-11-11T00:51:23+00:00"
           },
           {
+            "stage": "external_evaluation",
+            "label": "External evaluation",
+            "n": 6,
+            "seconds": 2785.9179999999997,
+            "last": "2026-11-14T16:57:08+00:00"
+          },
+          {
             "stage": "fit_final",
             "label": "Final fits",
             "n": 315,
@@ -5641,11 +5655,11 @@
             "last": "2026-11-14T16:35:08+00:00"
           },
           {
-            "stage": "external_evaluation",
-            "label": "External evaluation",
-            "n": 5,
-            "seconds": 2200.653,
-            "last": "2026-11-14T16:47:18+00:00"
+            "stage": "sensitivity_S6_widths_delta",
+            "label": "sensitivity S6 widths delta",
+            "n": 1,
+            "seconds": 586.734,
+            "last": "2026-11-14T16:57:08+00:00"
           },
           {
             "stage": "estimate_compute",
@@ -5855,8 +5869,139 @@
             "sealed": "2026-11-10T22:33:38+00:00"
           }
         ],
-        "tags": [],
-        "acceptance": [],
+        "tags": [
+          {
+            "algorithm": "GBM",
+            "counts": {
+              "Below floor": 16,
+              "Not portable": 1
+            }
+          },
+          {
+            "algorithm": "LR",
+            "counts": {
+              "Below floor": 16,
+              "Not portable": 1
+            }
+          },
+          {
+            "algorithm": "LightGBM",
+            "counts": {
+              "Below floor": 16,
+              "Not portable": 1
+            }
+          },
+          {
+            "algorithm": "MLP",
+            "counts": {
+              "Below floor": 16,
+              "Not portable": 1
+            }
+          },
+          {
+            "algorithm": "NB",
+            "counts": {
+              "Below floor": 17
+            }
+          },
+          {
+            "algorithm": "RF",
+            "counts": {
+              "Below floor": 16,
+              "Not portable": 1
+            }
+          },
+          {
+            "algorithm": "SVM",
+            "counts": {
+              "Below floor": 16,
+              "Not portable": 1
+            }
+          },
+          {
+            "algorithm": "TabNet",
+            "counts": {
+              "Below floor": 17
+            }
+          },
+          {
+            "algorithm": "XGBoost",
+            "counts": {
+              "Below floor": 16,
+              "Not portable": 1
+            }
+          }
+        ],
+        "acceptance": [
+          {
+            "criterion": "cohort matches contract and Table 1b",
+            "passed": true
+          },
+          {
+            "criterion": "event = non-suppression (vl_suppressed_1000 == 0)",
+            "passed": true
+          },
+          {
+            "criterion": "P recomputed from the contract and the selection (P = 24 for 17 predictors)",
+            "passed": true
+          },
+          {
+            "criterion": "F0 recorded for every model from its internal test AUC, before any external metric",
+            "passed": true
+          },
+          {
+            "criterion": "no external metric computed for a model below the floor",
+            "passed": true
+          },
+          {
+            "criterion": "17 scenarios from 7 training runs",
+            "passed": true
+          },
+          {
+            "criterion": "POST read from the exported assignment",
+            "passed": true
+          },
+          {
+            "criterion": "63 models (7 runs x algorithms)",
+            "passed": true
+          },
+          {
+            "criterion": "preprocessing fitted inside training folds only; SMOTENC below 20% minority",
+            "passed": true
+          },
+          {
+            "criterion": "configurations selected by pooled inner PR-AUC with the 1-SE rule",
+            "passed": true
+          },
+          {
+            "criterion": "tau* frozen, from prior-corrected pooled outer-fold predictions",
+            "passed": true
+          },
+          {
+            "criterion": "gates per algorithm, maximized per set, sealed before any external metric",
+            "passed": true
+          },
+          {
+            "criterion": "each algorithm x scenario pair carries exactly one tag",
+            "passed": true
+          },
+          {
+            "criterion": "tags and declarations reproducible from the decision log alone",
+            "passed": true
+          },
+          {
+            "criterion": "decision log holds every decision type the run writes",
+            "passed": true
+          },
+          {
+            "criterion": "every configured sensitivity analysis ran, tag changes counted",
+            "passed": true
+          },
+          {
+            "criterion": "search spaces match S2 Table (budgets) where no grid extension occurred",
+            "passed": true
+          }
+        ],
         "progress": {
           "folds_done": 2440,
           "folds_total": 630,
@@ -5864,10 +6009,10 @@
           "training_runs_total": 7,
           "gates_sealed": 17,
           "gates_total": 17,
-          "sensitivity_done": 3,
+          "sensitivity_done": 4,
           "sensitivity_total": 4,
-          "report_written": false,
-          "deposit_written": false
+          "report_written": true,
+          "deposit_written": true
         },
         "cohort": {
           "outer_folds": 10,
@@ -5896,7 +6041,8 @@
         "sensitivity": [
           "S1_no_smotenc",
           "S3_alt_outcomes",
-          "S4_robust_scaling"
+          "S4_robust_scaling",
+          "S6_widths_delta"
         ],
         "compute": {
           "profile": "full",
@@ -5911,7 +6057,13 @@
           "wall_clock_hours_unrounded": 45.076358059750255
         }
       },
-      "events": [],
+      "events": [
+        {
+          "at": "2026-11-14T14:57:51+00:00",
+          "kind": "ok",
+          "text": "SUCCESS - executed notebook: /scratch/degninou/viralai-study-3010/job_runs/executed_pipeline.ipynb"
+        }
+      ],
       "log_tail": [
         "[2026-11-10 21:25:54] ==================================================================",
         "[2026-11-10 21:25:54] job 21291858 (viralai-full-run) restart #0 on n217",
@@ -5927,7 +6079,21 @@
         "[2026-11-10 21:29:25] upstream: viralai_sample_size_calculation_30102026.ipynb",
         "[2026-11-10 21:30:23] pre-flight: all pipeline inputs present",
         "[2026-11-10 21:30:23] pipeline attempt 1/3: VIRALAI_N_JOBS=28 -> /scratch/degninou/viralai-study-3010/job_runs/21291858/executed_pipeline_r0_a1.ipynb",
-        "[2026-11-10 21:30:23] memory before: mem=0.5G peak=2.6G oom_events=0"
+        "[2026-11-10 21:30:23] memory before: mem=0.5G peak=2.6G oom_events=0",
+        "[2026-11-14 17:57:51] attempt 1 exit=0; memory: mem=0.5G peak=35.4G oom_events=0",
+        "[2026-11-14 17:57:51] memory trace: /scratch/degninou/viralai-study-3010/job_runs/21291858/memory.log (last lines below)",
+        "2026-11-14 17:53:19 mem=7.1G peak=35.4G oom_events=0 procs=11",
+        "2026-11-14 17:54:20 mem=7.1G peak=35.4G oom_events=0 procs=11",
+        "2026-11-14 17:55:20 mem=7.0G peak=35.4G oom_events=0 procs=11",
+        "2026-11-14 17:56:20 mem=7.1G peak=35.4G oom_events=0 procs=11",
+        "2026-11-14 17:57:20 mem=7.2G peak=35.4G oom_events=0 procs=11",
+        "               JobID                State    Elapsed     MaxRSS     ReqMem      NCPUS ",
+        "-------------------- -------------------- ---------- ---------- ---------- ---------- ",
+        "            21291858              RUNNING 3-20:32:00                   90G         32 ",
+        "      21291858.batch              RUNNING 3-20:32:00                               32 ",
+        "     21291858.extern              RUNNING 3-20:32:00                               32 ",
+        "[2026-11-14 17:57:51] SUCCESS - executed notebook: /scratch/degninou/viralai-study-3010/job_runs/executed_pipeline.ipynb",
+        "[2026-11-14 17:57:51] artifacts: /scratch/degninou/viralai-study-3010/artifacts  (scratch is purged automatically: copy them off)"
       ],
       "history": [
         {
@@ -5936,9 +6102,9 @@
           "node": "n217",
           "profile": "full",
           "started": "2026-11-10T18:25:54+00:00",
-          "last_seen": "2026-11-10T18:30:23+00:00",
-          "outcome": null,
-          "state": "RUNNING",
+          "last_seen": "2026-11-14T14:57:51+00:00",
+          "outcome": "success",
+          "state": "COMPLETED",
           "attempt": 1
         },
         {
@@ -5990,7 +6156,7 @@
       "title": "viralai-study-3010"
     },
     {
-      "generated_utc": "2026-11-14T16:50:01+00:00",
+      "generated_utc": "2026-11-14T17:00:06+00:00",
       "study_dir": "/scratch/degninou/viralai-study-2710",
       "job": {
         "id": "21045118",
