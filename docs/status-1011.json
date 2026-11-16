@@ -1,36 +1,53 @@
 {
-  "generated_utc": "2026-11-16T02:00:02+00:00",
+  "generated_utc": "2026-11-16T02:10:02+00:00",
   "study_dir": "/scratch/degninou/viralai-study-1011",
   "job": {
     "id": "21403434",
-    "state": "PENDING",
-    "node": null,
-    "elapsed": "0:00",
-    "left": "4-00:00:00",
-    "reason": "(Nodes required for job are DOWN, DRAINED or reserved for jobs in higher priority partitions)",
-    "start": "2026-11-16T03:00:34",
+    "state": "RUNNING",
+    "node": "n234",
+    "elapsed": "3:19",
+    "left": "3-23:56:41",
+    "reason": "n234",
+    "start": "2026-11-16T03:06:43",
     "source": "squeue",
-    "restart": null,
-    "profile": null,
-    "cpus": null,
-    "workers": null,
+    "restart": 0,
+    "profile": "full",
+    "cpus": 32,
+    "workers": 28,
     "attempt": null,
     "max_attempts": null,
-    "pipeline_notebook": null,
-    "upstream": [],
-    "started": null,
-    "last_log_at": null,
+    "pipeline_notebook": "viralai_pipeline_implementation_1011.ipynb",
+    "upstream": [
+      "viralai_data_cleaning_1011.ipynb"
+    ],
+    "started": "2026-11-16T00:06:45+00:00",
+    "last_log_at": "2026-11-16T00:08:59+00:00",
     "outcome": null,
     "projection": null,
-    "log_file": null
+    "log_file": "slurm-viralai-full-run-21403434.out"
   },
   "memory": {
-    "series": [],
-    "current_gb": null,
-    "peak_gb": null,
-    "oom_events": null,
-    "procs": null,
-    "limit_gb": null
+    "series": [
+      {
+        "t": "2026-11-16T00:08:59+00:00",
+        "mem": 0.5,
+        "peak": 1.1,
+        "oom": "0",
+        "procs": 5
+      },
+      {
+        "t": "2026-11-16T00:09:59+00:00",
+        "mem": 2.8,
+        "peak": 3.3,
+        "oom": "0",
+        "procs": 9
+      }
+    ],
+    "current_gb": 2.8,
+    "peak_gb": 3.3,
+    "oom_events": "0",
+    "procs": 9,
+    "limit_gb": 90.0
   },
   "pipeline": {
     "run_id": null,
@@ -48,8 +65,32 @@
     "compute": null
   },
   "events": [],
-  "log_tail": [],
-  "history": [],
+  "log_tail": [
+    "[2026-11-16 03:06:45] ==================================================================",
+    "[2026-11-16 03:06:45] job 21403434 (viralai-full-run) restart #0 on n234",
+    "[2026-11-16 03:06:45] cpus=32 mem_per_node=92160MB profile=full",
+    "[2026-11-16 03:06:45] ==================================================================",
+    "[2026-11-16 03:06:45] python: /scratch/degninou/viralai-study-1011/envs/viralai/bin/python 3.11.3",
+    "[2026-11-16 03:06:45] worker pool: VIRALAI_N_JOBS=28 (cpus=32, mem=90G)",
+    "[2026-11-16 03:06:45] pre-flight: packages",
+    "  all packages import (tensorflow + torch in one process OK)",
+    "[2026-11-16 03:08:57] pre-flight: kernel 'viralai' bound to /scratch/degninou/viralai-study-1011/envs/viralai/bin/python",
+    "[2026-11-16 03:08:59] pipeline notebook: /scratch/degninou/viralai-study-1011/viralai_pipeline_implementation_1011.ipynb",
+    "[2026-11-16 03:08:59] upstream: viralai_data_cleaning_1011.ipynb"
+  ],
+  "history": [
+    {
+      "job_id": "21403434",
+      "current": true,
+      "node": "n234",
+      "profile": "full",
+      "started": "2026-11-16T00:06:45+00:00",
+      "last_seen": "2026-11-16T00:08:59+00:00",
+      "outcome": null,
+      "state": "RUNNING",
+      "attempt": null
+    }
+  ],
   "label": "1011",
   "title": "viralai-study-1011"
 }

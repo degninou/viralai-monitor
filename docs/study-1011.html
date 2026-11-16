@@ -60,15 +60,15 @@ h1{font-size:18px}.card .v{font-size:18px}}
 </style></head><body><div class="wrap">
 <p class="sub" style="margin:0 0 10px"><a href="index.html">&larr; all runs</a></p>
 <header><div><h1>ViralAI — run status — viralai-study-1011</h1>
-<p class="sub">— · /scratch/degninou/viralai-study-1011</p></div>
-<div style="text-align:right"><span class="badge b-warn">PENDING</span>
-<p class="sub" style="margin:6px 0 0">Updated Mon 16 Nov 05:00 (02:00 UTC)</p></div></header>
-
-<div class="grid"><div class="card"><div class="k">Job</div><div class="v">21403434</div></div><div class="card"><div class="k">Node</div><div class="v">—</div><div class="n">? cores, ? GB</div></div><div class="card"><div class="k">Elapsed</div><div class="v">0:00</div><div class="n">time left 4-00:00:00</div></div><div class="card"><div class="k">Workers</div><div class="v">—</div><div class="n">loky processes</div></div><div class="card"><div class="k">Memory</div><div class="v">—</div><div class="n">peak None GB, OOM None</div></div><div class="card"><div class="k">Attempt</div><div class="v">—</div><div class="n">pipeline launches</div></div><div class="card"><div class="k">Expected start</div><div class="v">2026-11-16 03:00:34</div><div class="n">(Nodes required for job are DOWN, DRAINED or reserved for jobs in higher priority partitions)</div></div></div>
+<p class="sub">viralai_pipeline_implementation_1011.ipynb · /scratch/degninou/viralai-study-1011</p></div>
+<div style="text-align:right"><span class="badge b-run">RUNNING</span>
+<p class="sub" style="margin:6px 0 0">Updated Mon 16 Nov 05:10 (02:10 UTC)</p></div></header>
+<p class="sub" style="color:var(--warn)">No new log line for over 45 minutes — normal during a long fold, worth a look if it persists.</p>
+<div class="grid"><div class="card"><div class="k">Job</div><div class="v">21403434</div><div class="n">restart #0</div></div><div class="card"><div class="k">Node</div><div class="v">n234</div><div class="n">32 cores, 90.0 GB</div></div><div class="card"><div class="k">Elapsed</div><div class="v">3:19</div><div class="n">time left 3-23:56:41</div></div><div class="card"><div class="k">Workers</div><div class="v">28</div><div class="n">loky processes</div></div><div class="card"><div class="k">Memory</div><div class="v">2.8 GB</div><div class="n">peak 3.3 GB, OOM 0</div></div><div class="card"><div class="k">Attempt</div><div class="v">—</div><div class="n">pipeline launches</div></div></div>
 
 <h2>Progress</h2><div class="panel"><div class="prog"><div class="lbl">Training runs</div><div class="track"><div class="fill" style="width:0%"></div></div><div class="val">0/?</div></div><div class="prog"><div class="lbl">Outer folds</div><div class="track"><div class="fill" style="width:0%"></div></div><div class="val">0/?</div></div><div class="prog"><div class="lbl">Gates sealed</div><div class="track"><div class="fill" style="width:0%"></div></div><div class="val">0/?</div></div><div class="prog"><div class="lbl">Sensitivity</div><div class="track"><div class="fill" style="width:0%"></div></div><div class="val">0/?</div></div><p class="sub">Report pending · deposit pending</p></div>
 
-<h2>Memory</h2><div class="panel"><pre>No memory samples yet.</pre></div>
+<h2>Memory</h2><div class="panel"><svg viewBox="0 0 640 90" preserveAspectRatio="none" role="img" aria-label="Memory use over time" style="width:100%;height:90px;display:block"><polygon points="0,90 0.0,89.5 640.0,87.4 640,90" fill="var(--accent)" opacity="0.14"/><polyline points="0.0,89.5 640.0,87.4" fill="none" stroke="var(--accent)" stroke-width="1.6"/><line x1="0" y1="6.0" x2="640" y2="6.0" stroke="var(--bad)" stroke-dasharray="4 4" stroke-width="1"/></svg><p class="sub" style="margin:8px 0 0">Memory use over the last 2 minutes; dashed line is the 90.0 GB request. Peak 3.3 GB, OOM events 0.</p></div>
 
 <h2>Models</h2><div class="panel"><pre>No model has been frozen yet.</pre></div>
 
@@ -80,9 +80,19 @@ h1{font-size:18px}.card .v{font-size:18px}}
 
 <h2>Events</h2><div class="panel"><pre>Nothing unusual logged.</pre></div>
 
-<h2>Past runs</h2><div class="panel"><pre>No earlier runs found.</pre></div>
+<h2>Past runs</h2><div class="panel scroll"><table><thead><tr><th>Job</th><th>Profile</th><th>Node</th><th>Started</th><th>Last seen</th><th>Outcome</th></tr></thead><tbody><tr><td>21403434 (current)</td><td>full</td><td>n234</td><td>Mon 16 Nov 03:06</td><td>Mon 16 Nov 03:08</td><td>RUNNING</td></tr></tbody></table></div>
 
-<h2>Log tail</h2><div class="panel scroll"><pre>No log yet.</pre></div>
+<h2>Log tail</h2><div class="panel scroll"><pre>[2026-11-16 03:06:45] ==================================================================
+[2026-11-16 03:06:45] job 21403434 (viralai-full-run) restart #0 on n234
+[2026-11-16 03:06:45] cpus=32 mem_per_node=92160MB profile=full
+[2026-11-16 03:06:45] ==================================================================
+[2026-11-16 03:06:45] python: /scratch/degninou/viralai-study-1011/envs/viralai/bin/python 3.11.3
+[2026-11-16 03:06:45] worker pool: VIRALAI_N_JOBS=28 (cpus=32, mem=90G)
+[2026-11-16 03:06:45] pre-flight: packages
+  all packages import (tensorflow + torch in one process OK)
+[2026-11-16 03:08:57] pre-flight: kernel &#x27;viralai&#x27; bound to /scratch/degninou/viralai-study-1011/envs/viralai/bin/python
+[2026-11-16 03:08:59] pipeline notebook: /scratch/degninou/viralai-study-1011/viralai_pipeline_implementation_1011.ipynb
+[2026-11-16 03:08:59] upstream: viralai_data_cleaning_1011.ipynb</pre></div>
 
 <footer>Page regenerates on the login node and is pushed to GitHub Pages; it reloads itself
 every 10 minutes. Machine-readable copy:
