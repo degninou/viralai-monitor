@@ -1,12 +1,12 @@
 {
-  "generated_utc": "2026-11-19T00:20:01+00:00",
+  "generated_utc": "2026-11-19T00:30:02+00:00",
   "study_dir": "/scratch/degninou/viralai-study-1011",
   "job": {
     "id": "21403434",
     "state": "RUNNING",
     "node": "n186",
-    "elapsed": "1-15:14:09",
-    "left": "2-08:45:51",
+    "elapsed": "1-15:24:10",
+    "left": "2-08:35:50",
     "reason": "n186",
     "start": "2026-11-17T10:05:52",
     "source": "squeue",
@@ -29,76 +29,6 @@
   },
   "memory": {
     "series": [
-      {
-        "t": "2026-11-18T10:20:01+00:00",
-        "mem": 28.4,
-        "peak": 32.1,
-        "oom": "0",
-        "procs": 39
-      },
-      {
-        "t": "2026-11-18T10:21:01+00:00",
-        "mem": 28.4,
-        "peak": 32.1,
-        "oom": "0",
-        "procs": 39
-      },
-      {
-        "t": "2026-11-18T10:22:02+00:00",
-        "mem": 28.5,
-        "peak": 32.1,
-        "oom": "0",
-        "procs": 39
-      },
-      {
-        "t": "2026-11-18T10:23:02+00:00",
-        "mem": 28.4,
-        "peak": 32.1,
-        "oom": "0",
-        "procs": 39
-      },
-      {
-        "t": "2026-11-18T10:24:02+00:00",
-        "mem": 28.4,
-        "peak": 32.1,
-        "oom": "0",
-        "procs": 39
-      },
-      {
-        "t": "2026-11-18T10:25:02+00:00",
-        "mem": 28.4,
-        "peak": 32.1,
-        "oom": "0",
-        "procs": 39
-      },
-      {
-        "t": "2026-11-18T10:26:02+00:00",
-        "mem": 28.4,
-        "peak": 32.1,
-        "oom": "0",
-        "procs": 39
-      },
-      {
-        "t": "2026-11-18T10:27:02+00:00",
-        "mem": 28.5,
-        "peak": 32.1,
-        "oom": "0",
-        "procs": 39
-      },
-      {
-        "t": "2026-11-18T10:28:02+00:00",
-        "mem": 28.5,
-        "peak": 32.1,
-        "oom": "0",
-        "procs": 39
-      },
-      {
-        "t": "2026-11-18T10:29:02+00:00",
-        "mem": 28.5,
-        "peak": 32.1,
-        "oom": "0",
-        "procs": 39
-      },
       {
         "t": "2026-11-18T10:30:02+00:00",
         "mem": 28.5,
@@ -5068,12 +4998,82 @@
         "peak": 32.3,
         "oom": "0",
         "procs": 11
+      },
+      {
+        "t": "2026-11-18T22:20:28+00:00",
+        "mem": 3.6,
+        "peak": 32.3,
+        "oom": "0",
+        "procs": 11
+      },
+      {
+        "t": "2026-11-18T22:21:28+00:00",
+        "mem": 3.6,
+        "peak": 32.3,
+        "oom": "0",
+        "procs": 11
+      },
+      {
+        "t": "2026-11-18T22:22:28+00:00",
+        "mem": 3.4,
+        "peak": 32.3,
+        "oom": "0",
+        "procs": 11
+      },
+      {
+        "t": "2026-11-18T22:23:28+00:00",
+        "mem": 25.3,
+        "peak": 32.3,
+        "oom": "0",
+        "procs": 39
+      },
+      {
+        "t": "2026-11-18T22:24:29+00:00",
+        "mem": 25.7,
+        "peak": 32.3,
+        "oom": "0",
+        "procs": 39
+      },
+      {
+        "t": "2026-11-18T22:25:29+00:00",
+        "mem": 25.3,
+        "peak": 32.3,
+        "oom": "0",
+        "procs": 39
+      },
+      {
+        "t": "2026-11-18T22:26:29+00:00",
+        "mem": 25.3,
+        "peak": 32.3,
+        "oom": "0",
+        "procs": 39
+      },
+      {
+        "t": "2026-11-18T22:27:29+00:00",
+        "mem": 24.1,
+        "peak": 32.3,
+        "oom": "0",
+        "procs": 39
+      },
+      {
+        "t": "2026-11-18T22:28:29+00:00",
+        "mem": 25.1,
+        "peak": 32.3,
+        "oom": "0",
+        "procs": 39
+      },
+      {
+        "t": "2026-11-18T22:29:29+00:00",
+        "mem": 26.4,
+        "peak": 32.3,
+        "oom": "0",
+        "procs": 39
       }
     ],
-    "current_gb": 3.5,
+    "current_gb": 26.4,
     "peak_gb": 32.3,
     "oom_events": "0",
-    "procs": 11,
+    "procs": 39,
     "limit_gb": 90.0
   },
   "pipeline": {
@@ -5081,21 +5081,526 @@
     "status": null,
     "profile": "full",
     "started_utc": "2026-11-17T09:08:40+00:00",
-    "models": [],
+    "models": [
+      {
+        "dev_key": "DEV-LOCO-BFA",
+        "algorithm": "LR",
+        "internal_auc": 0.632925407925408,
+        "auc_lcl": 0.5970782458367019,
+        "floor_met": false,
+        "source": "F0"
+      },
+      {
+        "dev_key": "DEV-LOCO-BFA",
+        "algorithm": "RF",
+        "internal_auc": 0.6478509453509453,
+        "auc_lcl": 0.6128283302813985,
+        "floor_met": false,
+        "source": "F0"
+      },
+      {
+        "dev_key": "DEV-LOCO-BFA",
+        "algorithm": "SVM",
+        "internal_auc": 0.6439756539756539,
+        "auc_lcl": 0.6089200910022649,
+        "floor_met": false,
+        "source": "F0"
+      },
+      {
+        "dev_key": "DEV-LOCO-BFA",
+        "algorithm": "NB",
+        "internal_auc": 0.6072189847189847,
+        "auc_lcl": 0.5682971359963274,
+        "floor_met": false,
+        "source": "F0"
+      },
+      {
+        "dev_key": "DEV-LOCO-BFA",
+        "algorithm": "GBM",
+        "internal_auc": 0.6397261072261072,
+        "auc_lcl": 0.6054339624555976,
+        "floor_met": false,
+        "source": "F0"
+      },
+      {
+        "dev_key": "DEV-LOCO-BFA",
+        "algorithm": "XGBoost",
+        "internal_auc": 0.6582905982905983,
+        "auc_lcl": 0.6236233299905031,
+        "floor_met": false,
+        "source": "F0"
+      },
+      {
+        "dev_key": "DEV-LOCO-BFA",
+        "algorithm": "LightGBM",
+        "internal_auc": 0.6640656565656565,
+        "auc_lcl": 0.6302622573402283,
+        "floor_met": false,
+        "source": "F0"
+      },
+      {
+        "dev_key": "DEV-LOCO-BFA",
+        "algorithm": "MLP",
+        "internal_auc": 0.644543512043512,
+        "auc_lcl": 0.609409857623158,
+        "floor_met": false,
+        "source": "F0"
+      },
+      {
+        "dev_key": "DEV-LOCO-BFA",
+        "algorithm": "TabNet",
+        "internal_auc": 0.6493414918414918,
+        "auc_lcl": 0.6135736880858206,
+        "floor_met": false,
+        "source": "F0"
+      },
+      {
+        "dev_key": "DEV-LOCO-CIV",
+        "algorithm": "LR",
+        "internal_auc": 0.6826717053989781,
+        "auc_lcl": 0.6472016780410375,
+        "floor_met": false,
+        "source": "F0"
+      },
+      {
+        "dev_key": "DEV-LOCO-CIV",
+        "algorithm": "RF",
+        "internal_auc": 0.6882608132608132,
+        "auc_lcl": 0.653460552971977,
+        "floor_met": false,
+        "source": "F0"
+      },
+      {
+        "dev_key": "DEV-LOCO-CIV",
+        "algorithm": "SVM",
+        "internal_auc": 0.6695458371594736,
+        "auc_lcl": 0.633173735065239,
+        "floor_met": false,
+        "source": "F0"
+      },
+      {
+        "dev_key": "DEV-LOCO-CIV",
+        "algorithm": "NB",
+        "internal_auc": 0.6431837312519131,
+        "auc_lcl": 0.6026919507198374,
+        "floor_met": false,
+        "source": "F0"
+      },
+      {
+        "dev_key": "DEV-LOCO-CIV",
+        "algorithm": "GBM",
+        "internal_auc": 0.6672920934284571,
+        "auc_lcl": 0.6307219729747877,
+        "floor_met": false,
+        "source": "F0"
+      },
+      {
+        "dev_key": "DEV-LOCO-CIV",
+        "algorithm": "XGBoost",
+        "internal_auc": 0.6809580360716725,
+        "auc_lcl": 0.6450693685301812,
+        "floor_met": false,
+        "source": "F0"
+      },
+      {
+        "dev_key": "DEV-LOCO-CIV",
+        "algorithm": "LightGBM",
+        "internal_auc": 0.6843419627510536,
+        "auc_lcl": 0.6489773907145702,
+        "floor_met": false,
+        "source": "F0"
+      },
+      {
+        "dev_key": "DEV-LOCO-CIV",
+        "algorithm": "MLP",
+        "internal_auc": 0.6907706140660687,
+        "auc_lcl": 0.6556685838003253,
+        "floor_met": false,
+        "source": "F0"
+      },
+      {
+        "dev_key": "DEV-LOCO-CIV",
+        "algorithm": "TabNet",
+        "internal_auc": 0.6241015928515928,
+        "auc_lcl": 0.5844983222333545,
+        "floor_met": false,
+        "source": "F0"
+      },
+      {
+        "dev_key": "DEV-LOCO-NGA",
+        "algorithm": "LR",
+        "internal_auc": 0.6063575598100596,
+        "auc_lcl": 0.544728329950514,
+        "floor_met": false,
+        "source": "F0"
+      },
+      {
+        "dev_key": "DEV-LOCO-NGA",
+        "algorithm": "RF",
+        "internal_auc": 0.6469542993678734,
+        "auc_lcl": 0.5866754270116161,
+        "floor_met": false,
+        "source": "F0"
+      },
+      {
+        "dev_key": "DEV-LOCO-NGA",
+        "algorithm": "SVM",
+        "internal_auc": 0.6377861960499652,
+        "auc_lcl": 0.5797889433146551,
+        "floor_met": false,
+        "source": "F0"
+      },
+      {
+        "dev_key": "DEV-LOCO-NGA",
+        "algorithm": "NB",
+        "internal_auc": 0.6430488763875026,
+        "auc_lcl": 0.580441342009218,
+        "floor_met": false,
+        "source": "F0"
+      },
+      {
+        "dev_key": "DEV-LOCO-NGA",
+        "algorithm": "GBM",
+        "internal_auc": 0.6565080301243081,
+        "auc_lcl": 0.5981599869741507,
+        "floor_met": false,
+        "source": "F0"
+      },
+      {
+        "dev_key": "DEV-LOCO-NGA",
+        "algorithm": "XGBoost",
+        "internal_auc": 0.656008982850921,
+        "auc_lcl": 0.5976321440515567,
+        "floor_met": false,
+        "source": "F0"
+      },
+      {
+        "dev_key": "DEV-LOCO-NGA",
+        "algorithm": "LightGBM",
+        "internal_auc": 0.6509050902821886,
+        "auc_lcl": 0.5938868380751994,
+        "floor_met": false,
+        "source": "F0"
+      },
+      {
+        "dev_key": "DEV-LOCO-NGA",
+        "algorithm": "MLP",
+        "internal_auc": 0.620901763300366,
+        "auc_lcl": 0.5629662825059094,
+        "floor_met": false,
+        "source": "F0"
+      },
+      {
+        "dev_key": "DEV-LOCO-NGA",
+        "algorithm": "TabNet",
+        "internal_auc": 0.5640179354565527,
+        "auc_lcl": 0.5041627589893855,
+        "floor_met": false,
+        "source": "F0"
+      },
+      {
+        "dev_key": "DEV-LOCO-TGO",
+        "algorithm": "LR",
+        "internal_auc": 0.6384870170055872,
+        "auc_lcl": 0.6003576336319383,
+        "floor_met": false,
+        "source": "F0"
+      },
+      {
+        "dev_key": "DEV-LOCO-TGO",
+        "algorithm": "RF",
+        "internal_auc": 0.642575853983805,
+        "auc_lcl": 0.6045502339781228,
+        "floor_met": false,
+        "source": "F0"
+      },
+      {
+        "dev_key": "DEV-LOCO-TGO",
+        "algorithm": "SVM",
+        "internal_auc": 0.6680049160180254,
+        "auc_lcl": 0.631547079333688,
+        "floor_met": false,
+        "source": "F0"
+      },
+      {
+        "dev_key": "DEV-LOCO-TGO",
+        "algorithm": "NB",
+        "internal_auc": 0.6236056028659339,
+        "auc_lcl": 0.5838654276611379,
+        "floor_met": false,
+        "source": "F0"
+      },
+      {
+        "dev_key": "DEV-LOCO-TGO",
+        "algorithm": "GBM",
+        "internal_auc": 0.6479058983499961,
+        "auc_lcl": 0.6098587505790716,
+        "floor_met": false,
+        "source": "F0"
+      },
+      {
+        "dev_key": "DEV-LOCO-TGO",
+        "algorithm": "XGBoost",
+        "internal_auc": 0.6581632919888082,
+        "auc_lcl": 0.6204453587163159,
+        "floor_met": false,
+        "source": "F0"
+      },
+      {
+        "dev_key": "DEV-LOCO-TGO",
+        "algorithm": "LightGBM",
+        "internal_auc": 0.6673302709911355,
+        "auc_lcl": 0.6298369456183035,
+        "floor_met": false,
+        "source": "F0"
+      },
+      {
+        "dev_key": "DEV-LOCO-TGO",
+        "algorithm": "MLP",
+        "internal_auc": 0.6567277101292633,
+        "auc_lcl": 0.6208477663058676,
+        "floor_met": false,
+        "source": "F0"
+      },
+      {
+        "dev_key": "DEV-LOCO-TGO",
+        "algorithm": "TabNet",
+        "internal_auc": 0.5875077357553148,
+        "auc_lcl": 0.5461725215436614,
+        "floor_met": false,
+        "source": "F0"
+      },
+      {
+        "dev_key": "DEV-LOCO-BEN",
+        "algorithm": "LR",
+        "internal_auc": 0.6222561747140399,
+        "auc_lcl": 0.5868551099641057,
+        "floor_met": false,
+        "source": "F0"
+      },
+      {
+        "dev_key": "DEV-LOCO-BEN",
+        "algorithm": "RF",
+        "internal_auc": 0.6337951715760705,
+        "auc_lcl": 0.5992841902775675,
+        "floor_met": false,
+        "source": "F0"
+      },
+      {
+        "dev_key": "DEV-LOCO-BEN",
+        "algorithm": "SVM",
+        "internal_auc": 0.6341178256908594,
+        "auc_lcl": 0.5988440727526907,
+        "floor_met": false,
+        "source": "F0"
+      },
+      {
+        "dev_key": "DEV-LOCO-BEN",
+        "algorithm": "NB",
+        "internal_auc": 0.5790293805040996,
+        "auc_lcl": 0.5403905664836045,
+        "floor_met": false,
+        "source": "F0"
+      },
+      {
+        "dev_key": "DEV-LOCO-BEN",
+        "algorithm": "GBM",
+        "internal_auc": 0.6224858285251543,
+        "auc_lcl": 0.5877538877812274,
+        "floor_met": false,
+        "source": "F0"
+      },
+      {
+        "dev_key": "DEV-LOCO-BEN",
+        "algorithm": "XGBoost",
+        "internal_auc": 0.6497254276748659,
+        "auc_lcl": 0.6155912449229518,
+        "floor_met": false,
+        "source": "F0"
+      },
+      {
+        "dev_key": "DEV-LOCO-BEN",
+        "algorithm": "LightGBM",
+        "internal_auc": 0.6552668539325842,
+        "auc_lcl": 0.6220988189158283,
+        "floor_met": false,
+        "source": "F0"
+      },
+      {
+        "dev_key": "DEV-LOCO-BEN",
+        "algorithm": "MLP",
+        "internal_auc": 0.6397098643587408,
+        "auc_lcl": 0.6048275175530479,
+        "floor_met": false,
+        "source": "F0"
+      },
+      {
+        "dev_key": "DEV-LOCO-BEN",
+        "algorithm": "TabNet",
+        "internal_auc": 0.5950039224617877,
+        "auc_lcl": 0.5600788935248204,
+        "floor_met": false,
+        "source": "F0"
+      },
+      {
+        "dev_key": "DEV-POST",
+        "algorithm": "LR",
+        "internal_auc": 0.6575633222283044,
+        "auc_lcl": 0.6188321058933234,
+        "floor_met": false,
+        "source": "F0"
+      },
+      {
+        "dev_key": "DEV-POST",
+        "algorithm": "RF",
+        "internal_auc": 0.672306788809901,
+        "auc_lcl": 0.6343951908242224,
+        "floor_met": false,
+        "source": "F0"
+      },
+      {
+        "dev_key": "DEV-POST",
+        "algorithm": "SVM",
+        "internal_auc": 0.6532992448822009,
+        "auc_lcl": 0.615986139902005,
+        "floor_met": false,
+        "source": "F0"
+      },
+      {
+        "dev_key": "DEV-POST",
+        "algorithm": "NB",
+        "internal_auc": 0.597207369195689,
+        "auc_lcl": 0.5561804933923767,
+        "floor_met": false,
+        "source": "F0"
+      },
+      {
+        "dev_key": "DEV-POST",
+        "algorithm": "GBM",
+        "internal_auc": 0.6556438077077843,
+        "auc_lcl": 0.6175789069063999,
+        "floor_met": false,
+        "source": "F0"
+      },
+      {
+        "dev_key": "DEV-POST",
+        "algorithm": "XGBoost",
+        "internal_auc": 0.6623485142341337,
+        "auc_lcl": 0.6238746671555914,
+        "floor_met": false,
+        "source": "F0"
+      },
+      {
+        "dev_key": "DEV-POST",
+        "algorithm": "LightGBM",
+        "internal_auc": 0.6606202261365738,
+        "auc_lcl": 0.6229368781062504,
+        "floor_met": false,
+        "source": "F0"
+      },
+      {
+        "dev_key": "DEV-POST",
+        "algorithm": "MLP",
+        "internal_auc": 0.6515102355982034,
+        "auc_lcl": 0.6131966139913809,
+        "floor_met": false,
+        "source": "F0"
+      },
+      {
+        "dev_key": "DEV-POST",
+        "algorithm": "TabNet",
+        "internal_auc": 0.6160309369913468,
+        "auc_lcl": 0.5747975718484161,
+        "floor_met": false,
+        "source": "F0"
+      },
+      {
+        "dev_key": "DEV-EARLY",
+        "algorithm": "LR",
+        "internal_auc": 0.636399275008146,
+        "auc_lcl": 0.5961683371255313,
+        "floor_met": false,
+        "source": "F0"
+      },
+      {
+        "dev_key": "DEV-EARLY",
+        "algorithm": "RF",
+        "internal_auc": 0.6549924649723037,
+        "auc_lcl": 0.6147987117838928,
+        "floor_met": false,
+        "source": "F0"
+      },
+      {
+        "dev_key": "DEV-EARLY",
+        "algorithm": "SVM",
+        "internal_auc": 0.6520179109644836,
+        "auc_lcl": 0.6110342689216159,
+        "floor_met": false,
+        "source": "F0"
+      },
+      {
+        "dev_key": "DEV-EARLY",
+        "algorithm": "NB",
+        "internal_auc": 0.6260844330400782,
+        "auc_lcl": 0.5812326645804403,
+        "floor_met": false,
+        "source": "F0"
+      },
+      {
+        "dev_key": "DEV-EARLY",
+        "algorithm": "GBM",
+        "internal_auc": 0.5701063049853372,
+        "auc_lcl": 0.5465283652663282,
+        "floor_met": false,
+        "source": "F0"
+      },
+      {
+        "dev_key": "DEV-EARLY",
+        "algorithm": "XGBoost",
+        "internal_auc": 0.6582877667807103,
+        "auc_lcl": 0.6183455608427849,
+        "floor_met": false,
+        "source": "F0"
+      },
+      {
+        "dev_key": "DEV-EARLY",
+        "algorithm": "LightGBM",
+        "internal_auc": 0.6586441532258065,
+        "auc_lcl": 0.6192814374672798,
+        "floor_met": false,
+        "source": "F0"
+      },
+      {
+        "dev_key": "DEV-EARLY",
+        "algorithm": "MLP",
+        "internal_auc": 0.6524163000977518,
+        "auc_lcl": 0.6130727557262747,
+        "floor_met": false,
+        "source": "F0"
+      },
+      {
+        "dev_key": "DEV-EARLY",
+        "algorithm": "TabNet",
+        "internal_auc": 0.6453611212935809,
+        "auc_lcl": 0.6052871558684124,
+        "floor_met": false,
+        "source": "F0"
+      }
+    ],
     "stages": [
+      {
+        "stage": "training_run",
+        "label": "Training runs",
+        "n": 7,
+        "seconds": 140985.788,
+        "last": "2026-11-19T00:22:12+00:00"
+      },
       {
         "stage": "tune_outer_fold",
         "label": "Outer folds",
         "n": 684,
         "seconds": 126086.749,
         "last": "2026-11-19T00:04:47+00:00"
-      },
-      {
-        "stage": "training_run",
-        "label": "Training runs",
-        "n": 6,
-        "seconds": 115782.215,
-        "last": "2026-11-18T17:22:08+00:00"
       },
       {
         "stage": "nested_cv",
@@ -5107,9 +5612,9 @@
       {
         "stage": "fit_final",
         "label": "Final fits",
-        "n": 62,
-        "seconds": 740.8839999999999,
-        "last": "2026-11-19T00:20:01+00:00"
+        "n": 63,
+        "seconds": 766.4149999999998,
+        "last": "2026-11-19T00:22:12+00:00"
       },
       {
         "stage": "estimate_compute",
@@ -5119,6 +5624,13 @@
         "last": "2026-11-17T09:12:26+00:00"
       },
       {
+        "stage": "gates_and_shift",
+        "label": "Gates and shift diagnostics",
+        "n": 1,
+        "seconds": 11.764,
+        "last": "2026-11-19T00:22:24+00:00"
+      },
+      {
         "stage": "eda",
         "label": "Exploratory analysis",
         "n": 1,
@@ -5126,22 +5638,207 @@
         "last": "2026-11-17T09:08:45+00:00"
       },
       {
+        "stage": "inference",
+        "label": "Comparative inference",
+        "n": 1,
+        "seconds": 2.731,
+        "last": "2026-11-19T00:22:31+00:00"
+      },
+      {
         "stage": "import",
         "label": "Import and contract checks",
         "n": 1,
         "seconds": 0.652,
         "last": "2026-11-17T09:08:41+00:00"
+      },
+      {
+        "stage": "external_evaluation",
+        "label": "External evaluation",
+        "n": 1,
+        "seconds": 0.025,
+        "last": "2026-11-19T00:22:24+00:00"
       }
     ],
-    "gates": [],
+    "gates": [
+      {
+        "scenario": "01",
+        "key": "LOCO-BFA",
+        "n": 911,
+        "events": 75,
+        "route": "below_floor",
+        "g0a": false,
+        "g0b": false,
+        "sealed": "2026-11-19T00:22:12+00:00"
+      },
+      {
+        "scenario": "02",
+        "key": "LOCO-CIV",
+        "n": 1604,
+        "events": 183,
+        "route": "below_floor",
+        "g0a": false,
+        "g0b": false,
+        "sealed": "2026-11-19T00:22:13+00:00"
+      },
+      {
+        "scenario": "03",
+        "key": "LOCO-NGA",
+        "n": 10141,
+        "events": 857,
+        "route": "below_floor",
+        "g0a": false,
+        "g0b": false,
+        "sealed": "2026-11-19T00:22:14+00:00"
+      },
+      {
+        "scenario": "04",
+        "key": "LOCO-TGO",
+        "n": 3476,
+        "events": 218,
+        "route": "below_floor",
+        "g0a": false,
+        "g0b": false,
+        "sealed": "2026-11-19T00:22:15+00:00"
+      },
+      {
+        "scenario": "05",
+        "key": "LOCO-BEN",
+        "n": 722,
+        "events": 60,
+        "route": "below_floor",
+        "g0a": false,
+        "g0b": false,
+        "sealed": "2026-11-19T00:22:15+00:00"
+      },
+      {
+        "scenario": "06",
+        "key": "POST-ALL",
+        "n": 3371,
+        "events": 279,
+        "route": "below_floor",
+        "g0a": false,
+        "g0b": false,
+        "sealed": "2026-11-19T00:22:16+00:00"
+      },
+      {
+        "scenario": "07",
+        "key": "POST-BEN",
+        "n": 144,
+        "events": 12,
+        "route": "below_floor",
+        "g0a": false,
+        "g0b": false,
+        "sealed": "2026-11-19T00:22:17+00:00"
+      },
+      {
+        "scenario": "08",
+        "key": "POST-BFA",
+        "n": 182,
+        "events": 15,
+        "route": "below_floor",
+        "g0a": false,
+        "g0b": false,
+        "sealed": "2026-11-19T00:22:17+00:00"
+      },
+      {
+        "scenario": "09",
+        "key": "POST-CIV",
+        "n": 321,
+        "events": 37,
+        "route": "below_floor",
+        "g0a": false,
+        "g0b": false,
+        "sealed": "2026-11-19T00:22:18+00:00"
+      },
+      {
+        "scenario": "10",
+        "key": "POST-NGA",
+        "n": 2028,
+        "events": 171,
+        "route": "below_floor",
+        "g0a": false,
+        "g0b": false,
+        "sealed": "2026-11-19T00:22:19+00:00"
+      },
+      {
+        "scenario": "11",
+        "key": "POST-TGO",
+        "n": 696,
+        "events": 44,
+        "route": "below_floor",
+        "g0a": false,
+        "g0b": false,
+        "sealed": "2026-11-19T00:22:19+00:00"
+      },
+      {
+        "scenario": "12",
+        "key": "POFP",
+        "n": 5668,
+        "events": 434,
+        "route": "below_floor",
+        "g0a": false,
+        "g0b": false,
+        "sealed": "2026-11-19T00:22:20+00:00"
+      },
+      {
+        "scenario": "13",
+        "key": "POCP-BEN",
+        "n": 245,
+        "events": 24,
+        "route": "below_floor",
+        "g0a": false,
+        "g0b": false,
+        "sealed": "2026-11-19T00:22:21+00:00"
+      },
+      {
+        "scenario": "14",
+        "key": "POCP-BFA",
+        "n": 297,
+        "events": 26,
+        "route": "below_floor",
+        "g0a": false,
+        "g0b": false,
+        "sealed": "2026-11-19T00:22:22+00:00"
+      },
+      {
+        "scenario": "15",
+        "key": "POCP-CIV",
+        "n": 384,
+        "events": 38,
+        "route": "below_floor",
+        "g0a": false,
+        "g0b": false,
+        "sealed": "2026-11-19T00:22:22+00:00"
+      },
+      {
+        "scenario": "16",
+        "key": "POCP-NGA",
+        "n": 4105,
+        "events": 289,
+        "route": "below_floor",
+        "g0a": false,
+        "g0b": false,
+        "sealed": "2026-11-19T00:22:23+00:00"
+      },
+      {
+        "scenario": "17",
+        "key": "POCP-TGO",
+        "n": 637,
+        "events": 57,
+        "route": "below_floor",
+        "g0a": false,
+        "g0b": false,
+        "sealed": "2026-11-19T00:22:23+00:00"
+      }
+    ],
     "tags": [],
     "acceptance": [],
     "progress": {
       "folds_done": 684,
       "folds_total": 630,
-      "training_runs_done": 6,
+      "training_runs_done": 7,
       "training_runs_total": 7,
-      "gates_sealed": 0,
+      "gates_sealed": 17,
       "gates_total": 17,
       "sensitivity_done": 0,
       "sensitivity_total": 4,
