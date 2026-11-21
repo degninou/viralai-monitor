@@ -1,17 +1,17 @@
 {
-  "generated_utc": "2026-11-21T08:00:06+00:00",
+  "generated_utc": "2026-11-21T08:10:02+00:00",
   "studies": [
     {
-      "generated_utc": "2026-11-21T08:00:01+00:00",
+      "generated_utc": "2026-11-21T08:10:02+00:00",
       "study_dir": "/scratch/degninou/viralai-study-1011",
       "job": {
         "id": "21403434",
-        "state": "RUNNING",
-        "node": "n186",
-        "elapsed": "3-22:54:09",
-        "left": "1:05:51",
-        "reason": "n186",
-        "start": "2026-11-17T10:05:52",
+        "state": "PENDING",
+        "node": "n234",
+        "elapsed": "0:00",
+        "left": "4-00:00:00",
+        "reason": "(Nodes required for job are DOWN, DRAINED or reserved for jobs in higher priority partitions)",
+        "start": "2026-11-22T18:21:29",
         "source": "squeue",
         "restart": 0,
         "profile": "full",
@@ -25,48 +25,13 @@
           "viralai_sample_size_calculation_1011.ipynb"
         ],
         "started": "2026-11-16T00:06:45+00:00",
-        "last_log_at": "2026-11-17T07:08:01+00:00",
+        "last_log_at": "2026-11-21T06:05:28+00:00",
         "outcome": null,
         "projection": null,
         "log_file": "slurm-viralai-full-run-21403434.out"
       },
       "memory": {
         "series": [
-          {
-            "t": "2026-11-20T18:00:11+00:00",
-            "mem": 30.5,
-            "peak": 33.4,
-            "oom": "0",
-            "procs": 39
-          },
-          {
-            "t": "2026-11-20T18:01:11+00:00",
-            "mem": 30.9,
-            "peak": 33.4,
-            "oom": "0",
-            "procs": 39
-          },
-          {
-            "t": "2026-11-20T18:02:11+00:00",
-            "mem": 30.0,
-            "peak": 33.4,
-            "oom": "0",
-            "procs": 38
-          },
-          {
-            "t": "2026-11-20T18:03:11+00:00",
-            "mem": 29.0,
-            "peak": 33.4,
-            "oom": "0",
-            "procs": 37
-          },
-          {
-            "t": "2026-11-20T18:04:11+00:00",
-            "mem": 31.2,
-            "peak": 33.4,
-            "oom": "0",
-            "procs": 39
-          },
           {
             "t": "2026-11-20T18:05:11+00:00",
             "mem": 30.5,
@@ -5071,9 +5036,44 @@
             "peak": 34.2,
             "oom": "0",
             "procs": 39
+          },
+          {
+            "t": "2026-11-21T06:00:39+00:00",
+            "mem": 28.0,
+            "peak": 34.2,
+            "oom": "0",
+            "procs": 39
+          },
+          {
+            "t": "2026-11-21T06:01:39+00:00",
+            "mem": 27.8,
+            "peak": 34.2,
+            "oom": "0",
+            "procs": 39
+          },
+          {
+            "t": "2026-11-21T06:02:39+00:00",
+            "mem": 28.0,
+            "peak": 34.2,
+            "oom": "0",
+            "procs": 39
+          },
+          {
+            "t": "2026-11-21T06:03:39+00:00",
+            "mem": 27.8,
+            "peak": 34.2,
+            "oom": "0",
+            "procs": 39
+          },
+          {
+            "t": "2026-11-21T06:04:39+00:00",
+            "mem": 27.8,
+            "peak": 34.2,
+            "oom": "0",
+            "procs": 39
           }
         ],
-        "current_gb": 27.9,
+        "current_gb": 27.8,
         "peak_gb": 34.2,
         "oom_events": "0",
         "procs": 39,
@@ -5601,9 +5601,9 @@
           {
             "stage": "tune_outer_fold",
             "label": "Outer folds",
-            "n": 2289,
-            "seconds": 315868.75599999994,
-            "last": "2026-11-21T07:56:26+00:00"
+            "n": 2290,
+            "seconds": 316278.34599999996,
+            "last": "2026-11-21T08:03:16+00:00"
           },
           {
             "stage": "sensitivity_S1_no_smotenc",
@@ -5844,7 +5844,7 @@
         "tags": [],
         "acceptance": [],
         "progress": {
-          "folds_done": 2289,
+          "folds_done": 2290,
           "folds_total": 630,
           "training_runs_done": 15,
           "training_runs_total": 7,
@@ -5895,7 +5895,18 @@
           "wall_clock_hours_unrounded": 55.63462066008716
         }
       },
-      "events": [],
+      "events": [
+        {
+          "at": "2026-11-21T06:05:28+00:00",
+          "kind": "warn",
+          "text": "walltime warning received (USR1): checkpoints are on disk"
+        },
+        {
+          "at": "2026-11-21T06:05:28+00:00",
+          "kind": "warn",
+          "text": "requeueing job 21403434; the next start resumes from /scratch/degninou/viralai-study-1011/artifacts/_resume_cache"
+        }
+      ],
       "log_tail": [
         "[2026-11-16 03:06:45] ==================================================================",
         "[2026-11-16 03:06:45] job 21403434 (viralai-full-run) restart #0 on n234",
@@ -5925,7 +5936,9 @@
         "[2026-11-17 10:08:01] upstream: skipped (RUN_UPSTREAM=1, marker present)",
         "[2026-11-17 10:08:01] pre-flight: all pipeline inputs present",
         "[2026-11-17 10:08:01] pipeline attempt 1/3: VIRALAI_N_JOBS=28 -> /scratch/degninou/viralai-study-1011/job_runs/21403434/executed_pipeline_r1_a1.ipynb",
-        "[2026-11-17 10:08:01] memory before: mem=0.5G peak=1.1G oom_events=0"
+        "[2026-11-17 10:08:01] memory before: mem=0.5G peak=1.1G oom_events=0",
+        "[2026-11-21 09:05:28] walltime warning received (USR1): checkpoints are on disk",
+        "[2026-11-21 09:05:28] requeueing job 21403434; the next start resumes from /scratch/degninou/viralai-study-1011/artifacts/_resume_cache"
       ],
       "history": [
         {
@@ -5934,9 +5947,9 @@
           "node": "n234",
           "profile": "full",
           "started": "2026-11-16T00:06:45+00:00",
-          "last_seen": "2026-11-17T07:08:01+00:00",
+          "last_seen": "2026-11-21T06:05:28+00:00",
           "outcome": null,
-          "state": "RUNNING",
+          "state": "PENDING",
           "attempt": 1
         }
       ],
@@ -5944,7 +5957,7 @@
       "title": "viralai-study-1011"
     },
     {
-      "generated_utc": "2026-11-21T08:00:06+00:00",
+      "generated_utc": "2026-11-21T08:10:02+00:00",
       "study_dir": "/scratch/degninou/viralai-study-2710",
       "job": {
         "id": "21045118",
