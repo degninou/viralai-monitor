@@ -1,12 +1,12 @@
 {
-  "generated_utc": "2026-11-22T10:00:02+00:00",
+  "generated_utc": "2026-11-22T10:10:03+00:00",
   "study_dir": "/scratch/degninou/viralai-study-1011",
   "job": {
     "id": "21403434",
     "state": "RUNNING",
     "node": "n037",
-    "elapsed": "5:34",
-    "left": "3-23:54:26",
+    "elapsed": "15:35",
+    "left": "3-23:44:25",
     "reason": "n037",
     "start": "2026-11-22T10:54:28",
     "source": "squeue",
@@ -29,76 +29,6 @@
   },
   "memory": {
     "series": [
-      {
-        "t": "2026-11-20T18:08:11+00:00",
-        "mem": 30.2,
-        "peak": 33.4,
-        "oom": "0",
-        "procs": 39
-      },
-      {
-        "t": "2026-11-20T18:09:11+00:00",
-        "mem": 29.7,
-        "peak": 33.4,
-        "oom": "0",
-        "procs": 39
-      },
-      {
-        "t": "2026-11-20T18:10:11+00:00",
-        "mem": 29.3,
-        "peak": 33.4,
-        "oom": "0",
-        "procs": 39
-      },
-      {
-        "t": "2026-11-20T18:11:11+00:00",
-        "mem": 28.0,
-        "peak": 33.4,
-        "oom": "0",
-        "procs": 39
-      },
-      {
-        "t": "2026-11-20T18:12:11+00:00",
-        "mem": 28.8,
-        "peak": 33.4,
-        "oom": "0",
-        "procs": 39
-      },
-      {
-        "t": "2026-11-20T18:13:11+00:00",
-        "mem": 29.4,
-        "peak": 33.4,
-        "oom": "0",
-        "procs": 39
-      },
-      {
-        "t": "2026-11-20T18:14:11+00:00",
-        "mem": 29.9,
-        "peak": 33.4,
-        "oom": "0",
-        "procs": 39
-      },
-      {
-        "t": "2026-11-20T18:15:12+00:00",
-        "mem": 28.8,
-        "peak": 33.4,
-        "oom": "0",
-        "procs": 38
-      },
-      {
-        "t": "2026-11-20T18:16:12+00:00",
-        "mem": 29.7,
-        "peak": 33.4,
-        "oom": "0",
-        "procs": 39
-      },
-      {
-        "t": "2026-11-20T18:17:12+00:00",
-        "mem": 29.6,
-        "peak": 33.4,
-        "oom": "0",
-        "procs": 39
-      },
       {
         "t": "2026-11-20T18:18:12+00:00",
         "mem": 30.2,
@@ -5068,10 +4998,80 @@
         "peak": 1.7,
         "oom": "0",
         "procs": 9
+      },
+      {
+        "t": "2026-11-22T08:00:38+00:00",
+        "mem": 1.7,
+        "peak": 1.7,
+        "oom": "0",
+        "procs": 9
+      },
+      {
+        "t": "2026-11-22T08:01:38+00:00",
+        "mem": 1.5,
+        "peak": 1.7,
+        "oom": "0",
+        "procs": 9
+      },
+      {
+        "t": "2026-11-22T08:02:38+00:00",
+        "mem": 2.0,
+        "peak": 2.0,
+        "oom": "0",
+        "procs": 9
+      },
+      {
+        "t": "2026-11-22T08:03:38+00:00",
+        "mem": 2.0,
+        "peak": 2.0,
+        "oom": "0",
+        "procs": 9
+      },
+      {
+        "t": "2026-11-22T08:04:38+00:00",
+        "mem": 1.8,
+        "peak": 2.0,
+        "oom": "0",
+        "procs": 9
+      },
+      {
+        "t": "2026-11-22T08:05:38+00:00",
+        "mem": 2.0,
+        "peak": 2.0,
+        "oom": "0",
+        "procs": 9
+      },
+      {
+        "t": "2026-11-22T08:06:38+00:00",
+        "mem": 2.0,
+        "peak": 2.0,
+        "oom": "0",
+        "procs": 9
+      },
+      {
+        "t": "2026-11-22T08:07:38+00:00",
+        "mem": 1.9,
+        "peak": 2.0,
+        "oom": "0",
+        "procs": 9
+      },
+      {
+        "t": "2026-11-22T08:08:38+00:00",
+        "mem": 1.9,
+        "peak": 2.0,
+        "oom": "0",
+        "procs": 9
+      },
+      {
+        "t": "2026-11-22T08:09:38+00:00",
+        "mem": 1.8,
+        "peak": 2.0,
+        "oom": "0",
+        "procs": 9
       }
     ],
-    "current_gb": 1.5,
-    "peak_gb": 1.7,
+    "current_gb": 1.8,
+    "peak_gb": 2.0,
     "oom_events": "0",
     "procs": 9,
     "limit_gb": 90.0
@@ -5084,11 +5084,32 @@
     "models": [],
     "stages": [
       {
+        "stage": "estimate_compute",
+        "label": "Compute projection",
+        "n": 1,
+        "seconds": 215.78,
+        "last": "2026-11-22T10:02:21+00:00"
+      },
+      {
         "stage": "eda",
         "label": "Exploratory analysis",
         "n": 1,
         "seconds": 4.33,
         "last": "2026-11-22T09:58:38+00:00"
+      },
+      {
+        "stage": "fit_final",
+        "label": "Final fits",
+        "n": 2,
+        "seconds": 2.278,
+        "last": "2026-11-22T10:07:35+00:00"
+      },
+      {
+        "stage": "nested_cv",
+        "label": "Nested cross-validation",
+        "n": 1,
+        "seconds": 0.88,
+        "last": "2026-11-22T10:02:22+00:00"
       },
       {
         "stage": "import",
@@ -5138,7 +5159,18 @@
       ]
     },
     "sensitivity": [],
-    "compute": null
+    "compute": {
+      "profile": "full",
+      "probe_training_run": "DEV-POST",
+      "probe_rows": 9707,
+      "fold_preparation_seconds": 2.5,
+      "fold_preparations": 3108,
+      "sensitivity_refits": 3,
+      "parallel_workers": 28,
+      "cpu_hours_total": 1526.8,
+      "wall_clock_hours_estimate": 56.6,
+      "wall_clock_hours_unrounded": 56.59346652871457
+    }
   },
   "events": [
     {
