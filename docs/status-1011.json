@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-22T09:30:02+00:00",
+  "generated_utc": "2026-11-22T09:40:02+00:00",
   "study_dir": "/scratch/degninou/viralai-study-1011",
   "job": {
     "id": "21403434",
@@ -8,7 +8,7 @@
     "elapsed": "0:00",
     "left": "4-00:00:00",
     "reason": "(Nodes required for job are DOWN, DRAINED or reserved for jobs in higher priority partitions)",
-    "start": "2026-11-23T05:11:14",
+    "start": "2026-11-23T05:12:24",
     "source": "squeue",
     "restart": 0,
     "profile": "full",
