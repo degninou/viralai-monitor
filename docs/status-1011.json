@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-11-26T08:50:03+00:00",
+  "generated_utc": "2026-11-26T09:00:02+00:00",
   "study_dir": "/scratch/degninou/viralai-study-1011",
   "job": {
     "id": "21403434",
-    "state": "RUNNING",
-    "node": "n037",
-    "elapsed": "3-22:55:35",
-    "left": "1:04:25",
-    "reason": "n037",
-    "start": "2026-11-22T10:54:28",
+    "state": "PENDING",
+    "node": "n234",
+    "elapsed": "0:00",
+    "left": "4-00:00:00",
+    "reason": "(Priority)",
+    "start": "2026-11-28T00:49:07",
     "source": "squeue",
     "restart": 0,
     "profile": "full",
@@ -22,48 +22,13 @@
       "viralai_sample_size_calculation_1011.ipynb"
     ],
     "started": "2026-11-16T00:06:45+00:00",
-    "last_log_at": "2026-11-22T07:57:37+00:00",
+    "last_log_at": "2026-11-26T06:54:13+00:00",
     "outcome": null,
     "projection": null,
     "log_file": "slurm-viralai-full-run-21403434.out"
   },
   "memory": {
     "series": [
-      {
-        "t": "2026-11-25T18:49:43+00:00",
-        "mem": 31.4,
-        "peak": 36.1,
-        "oom": "0",
-        "procs": 38
-      },
-      {
-        "t": "2026-11-25T18:50:43+00:00",
-        "mem": 30.1,
-        "peak": 36.1,
-        "oom": "0",
-        "procs": 37
-      },
-      {
-        "t": "2026-11-25T18:51:43+00:00",
-        "mem": 30.1,
-        "peak": 36.1,
-        "oom": "0",
-        "procs": 37
-      },
-      {
-        "t": "2026-11-25T18:52:43+00:00",
-        "mem": 31.4,
-        "peak": 36.1,
-        "oom": "0",
-        "procs": 39
-      },
-      {
-        "t": "2026-11-25T18:53:43+00:00",
-        "mem": 28.1,
-        "peak": 36.1,
-        "oom": "0",
-        "procs": 39
-      },
       {
         "t": "2026-11-25T18:54:43+00:00",
         "mem": 30.8,
@@ -5068,9 +5033,44 @@
         "peak": 36.1,
         "oom": "0",
         "procs": 39
+      },
+      {
+        "t": "2026-11-26T06:50:11+00:00",
+        "mem": 30.0,
+        "peak": 36.1,
+        "oom": "0",
+        "procs": 39
+      },
+      {
+        "t": "2026-11-26T06:51:11+00:00",
+        "mem": 30.8,
+        "peak": 36.1,
+        "oom": "0",
+        "procs": 39
+      },
+      {
+        "t": "2026-11-26T06:52:11+00:00",
+        "mem": 31.5,
+        "peak": 36.1,
+        "oom": "0",
+        "procs": 39
+      },
+      {
+        "t": "2026-11-26T06:53:11+00:00",
+        "mem": 31.6,
+        "peak": 36.1,
+        "oom": "0",
+        "procs": 39
+      },
+      {
+        "t": "2026-11-26T06:54:11+00:00",
+        "mem": 32.0,
+        "peak": 36.1,
+        "oom": "0",
+        "procs": 39
       }
     ],
-    "current_gb": 30.7,
+    "current_gb": 32.0,
     "peak_gb": 36.1,
     "oom_events": "0",
     "procs": 39,
@@ -5910,11 +5910,19 @@
       "at": "2026-11-21T06:05:28+00:00",
       "kind": "warn",
       "text": "requeueing job 21403434; the next start resumes from /scratch/degninou/viralai-study-1011/artifacts/_resume_cache"
+    },
+    {
+      "at": "2026-11-26T06:54:13+00:00",
+      "kind": "warn",
+      "text": "walltime warning received (USR1): checkpoints are on disk"
+    },
+    {
+      "at": "2026-11-26T06:54:13+00:00",
+      "kind": "warn",
+      "text": "requeueing job 21403434; the next start resumes from /scratch/degninou/viralai-study-1011/artifacts/_resume_cache"
     }
   ],
   "log_tail": [
-    "[2026-11-16 03:06:45] worker pool: VIRALAI_N_JOBS=28 (cpus=32, mem=90G)",
-    "[2026-11-16 03:06:45] pre-flight: packages",
     "  all packages import (tensorflow + torch in one process OK)",
     "[2026-11-16 03:08:57] pre-flight: kernel 'viralai' bound to /scratch/degninou/viralai-study-1011/envs/viralai/bin/python",
     "[2026-11-16 03:08:59] pipeline notebook: /scratch/degninou/viralai-study-1011/viralai_pipeline_implementation_1011.ipynb",
@@ -5952,7 +5960,9 @@
     "[2026-11-22 10:57:37] upstream: skipped (RUN_UPSTREAM=1, marker present)",
     "[2026-11-22 10:57:37] pre-flight: all pipeline inputs present",
     "[2026-11-22 10:57:37] pipeline attempt 1/3: VIRALAI_N_JOBS=28 -> /scratch/degninou/viralai-study-1011/job_runs/21403434/executed_pipeline_r2_a1.ipynb",
-    "[2026-11-22 10:57:37] memory before: mem=0.5G peak=1.1G oom_events=0"
+    "[2026-11-22 10:57:37] memory before: mem=0.5G peak=1.1G oom_events=0",
+    "[2026-11-26 09:54:13] walltime warning received (USR1): checkpoints are on disk",
+    "[2026-11-26 09:54:13] requeueing job 21403434; the next start resumes from /scratch/degninou/viralai-study-1011/artifacts/_resume_cache"
   ],
   "history": [
     {
@@ -5961,9 +5971,9 @@
       "node": "n234",
       "profile": "full",
       "started": "2026-11-16T00:06:45+00:00",
-      "last_seen": "2026-11-22T07:57:37+00:00",
+      "last_seen": "2026-11-26T06:54:13+00:00",
       "outcome": null,
-      "state": "RUNNING",
+      "state": "PENDING",
       "attempt": 1
     }
   ],
