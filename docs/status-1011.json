@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-27T05:00:02+00:00",
+  "generated_utc": "2026-11-27T05:10:02+00:00",
   "study_dir": "/scratch/degninou/viralai-study-1011",
   "job": {
     "id": "21403434",
@@ -8,7 +8,7 @@
     "elapsed": "0:00",
     "left": "4-00:00:00",
     "reason": "(Priority)",
-    "start": "2026-11-28T18:35:06",
+    "start": "2026-11-28T17:07:49",
     "source": "squeue",
     "restart": 0,
     "profile": "full",
