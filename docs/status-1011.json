@@ -1,15 +1,15 @@
 {
-  "generated_utc": "2026-11-28T01:10:02+00:00",
+  "generated_utc": "2026-11-28T01:20:26+00:00",
   "study_dir": "/scratch/degninou/viralai-study-1011",
   "job": {
     "id": "21403434",
-    "state": "PENDING",
+    "state": "UNKNOWN",
     "node": "n234",
-    "elapsed": "0:00",
-    "left": "4-00:00:00",
-    "reason": "(Priority)",
-    "start": "2026-11-29T02:09:29",
-    "source": "squeue",
+    "elapsed": "",
+    "left": "",
+    "reason": "",
+    "start": "",
+    "source": "log",
     "restart": 0,
     "profile": "full",
     "cpus": 32,
@@ -5973,7 +5973,7 @@
       "started": "2026-11-16T00:06:45+00:00",
       "last_seen": "2026-11-26T06:54:13+00:00",
       "outcome": null,
-      "state": "PENDING",
+      "state": "UNKNOWN",
       "attempt": 1
     }
   ],
