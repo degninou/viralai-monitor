@@ -1,18 +1,18 @@
 {
-  "generated_utc": "2026-11-28T01:20:47+00:00",
+  "generated_utc": "2026-11-28T01:30:02+00:00",
   "studies": [
     {
-      "generated_utc": "2026-11-28T01:20:26+00:00",
+      "generated_utc": "2026-11-28T01:30:02+00:00",
       "study_dir": "/scratch/degninou/viralai-study-1011",
       "job": {
         "id": "21403434",
-        "state": "UNKNOWN",
+        "state": "PENDING",
         "node": "n234",
-        "elapsed": "",
-        "left": "",
-        "reason": "",
-        "start": "",
-        "source": "log",
+        "elapsed": "0:00",
+        "left": "4-00:00:00",
+        "reason": "(Priority)",
+        "start": "2026-11-29T00:07:34",
+        "source": "squeue",
         "restart": 0,
         "profile": "full",
         "cpus": 32,
@@ -5976,7 +5976,7 @@
           "started": "2026-11-16T00:06:45+00:00",
           "last_seen": "2026-11-26T06:54:13+00:00",
           "outcome": null,
-          "state": "UNKNOWN",
+          "state": "PENDING",
           "attempt": 1
         }
       ],
@@ -5984,7 +5984,7 @@
       "title": "viralai-study-1011"
     },
     {
-      "generated_utc": "2026-11-28T01:20:47+00:00",
+      "generated_utc": "2026-11-28T01:30:02+00:00",
       "study_dir": "/scratch/degninou/viralai-study-2710",
       "job": {
         "id": "21045118",
